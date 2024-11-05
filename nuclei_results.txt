@@ -1,0 +1,1257 @@
+[dns-rebinding:IPv4] [dns] [unknown] auth.use1.plat.dev.chewy.com [10.129.11.233,10.129.12.246,10.129.16.33]
+[dns-rebinding:IPv4] [dns] [unknown] bo.chewy.com [10.3.66.147]
+[dns-rebinding:IPv4] [dns] [unknown] blue-us-east-2-checkout.opta.dev.chewy.com [10.138.136.206,10.138.146.90]
+[dns-rebinding:IPv4] [dns] [unknown] blue-us-east-1-checkout.opta.dev.chewy.com [10.128.143.49]
+[dns-rebinding:IPv4] [dns] [unknown] checkout.opta.dev.chewy.com [10.128.143.49]
+[dns-rebinding:IPv4] [dns] [unknown] dotcms.use1.demm.qat.chewy.com [10.130.47.102,10.130.49.211]
+[dns-rebinding:IPv4] [dns] [unknown] dotcms.use1.demm.prd.chewy.com [10.134.49.120,10.134.43.247]
+[dns-rebinding:IPv4] [dns] [unknown] dotcms.use1.demm.stg.chewy.com [10.132.48.168,10.132.43.110]
+[dns-rebinding:IPv4] [dns] [unknown] dotcms.use2.demm.prd.chewy.com [10.134.43.247,10.134.49.120]
+[dns-rebinding:IPv4] [dns] [unknown] git.shss.chewy.com [10.112.70.116]
+[dns-rebinding:IPv4] [dns] [unknown] labormanagement.chewy.com [10.1.111.160]
+[dns-rebinding:IPv4] [dns] [unknown] stark-provider-view-api-qat.hlth.qat.chewy.com [10.130.73.165,10.130.81.132,10.130.77.246]
+[dns-rebinding:IPv4] [dns] [unknown] stark-appointment-service-dev.hlth.dev.chewy.com [10.128.83.150,10.128.77.19,10.128.72.38]
+[dns-rebinding:IPv4] [dns] [unknown] stark-chat-service-qat.hlth.qat.chewy.com [10.130.76.184,10.130.83.95,10.130.74.62]
+[dns-rebinding:IPv4] [dns] [unknown] tfesrv.shd.chewy.com [10.135.247.60]
+[dns-rebinding:IPv4] [dns] [unknown] taxui.chewy.com [10.3.70.23]
+[dns-rebinding:IPv4] [dns] [unknown] stark-appointment-service-qat.hlth.qat.chewy.com [10.130.76.160,10.130.73.20,10.130.81.171]
+[dns-rebinding:IPv4] [dns] [unknown] university.chewy.com [10.1.111.165]
+[github-takeover] [http] [high] https://hlth.dev.chewy.com
+[credentials-disclosure] [http] [unknown] https://demo.petscriptions.chewy.com/home_v2 [API_key="FLMUJ-WG4TC-428QE-PG6MP-XERBW"]
+[credentials-disclosure] [http] [unknown] https://careers.chewy.com/us/en ["apiKey":"AIzaSyBqM-rW0r-sR9PerNAvvsmzbBeoFu3Ycz8","apiKey":"pk,"apiKey":"752xe1cieo8utv"]
+[aem-crx-browser] [http] [unknown] https://dam-stg.chewy.com/crx/explorer/browser/index.jsp
+[aem-crx-namespace] [http] [low] https://dam-stg.chewy.com/crx/explorer/ui/namespace_editor.jsp
+[aem-crx-search] [http] [unknown] https://dam-stg.chewy.com/crx/explorer/ui/search.jsp
+[fumengyun-sqli:time-based] [http] [critical] https://clicks.ca.chewy.com/Ajax/AjaxMethod.ashx?action=getEmpByname&Name=Y%27;WAITFOR%20DELAY%20%270:0:6%27--
+[revoked-ssl-certificate] [ssl] [low] api.chewy-studios.dev.chewy.com:443
+[expired-ssl] [ssl] [low] api.chewy-studios.dev.chewy.com:443 [2024-10-08 02:16:35 +0000 UTC]
+[mismatched-ssl-certificate] [ssl] [low] clicks.ca.chewy.com:443 [CN: spgo.io]
+[mismatched-ssl-certificate] [ssl] [low] corp.dev.chewy.com:443 [CN: *.execute-api.us-east-1.amazonaws.com]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-haproxy.use1.lgcy.prd.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.0] [ssl] [low] api-haproxy.use2.lgcy.prd.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-haproxy.use2.lgcy.prd.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] api-haproxy.use1.lgcy.prd.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.0] [ssl] [low] auth-public.use1.plat.dev.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] auth-public.use1.plat.dev.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[self-signed-ssl] [ssl] [low] igelmgmtprd.chewy.com:443
+[untrusted-root-certificate] [ssl] [low] igelmgmtprd.chewy.com:443
+[mismatched-ssl-certificate] [ssl] [low] isv.chewy.com:443 [CN: *.sendgrid.net]
+[weak-cipher-suites:tls-1.0] [ssl] [low] collect.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] collect.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.0] [ssl] [low] corp.dev.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] corp.dev.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[revoked-ssl-certificate] [ssl] [low] moe.chewy-studios.dev.chewy.com:443
+[expired-ssl] [ssl] [low] moe.chewy-studios.dev.chewy.com:443 [2024-10-08 02:16:35 +0000 UTC]
+[revoked-ssl-certificate] [ssl] [low] portal.chewy-studios.dev.chewy.com:443
+[expired-ssl] [ssl] [low] portal.chewy-studios.dev.chewy.com:443 [2024-10-08 02:16:35 +0000 UTC]
+[revoked-ssl-certificate] [ssl] [low] woof.chewy.com:443
+[expired-ssl] [ssl] [low] woof.chewy.com:443 [2024-07-14 23:59:59 +0000 UTC]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sfsnma-haproxy.use1.lgcy.prd.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sfsnma-haproxy.use2.lgcy.prd.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sfsnma-haproxy.use1.lgcy.prd.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sfsnma-haproxy.use2.lgcy.prd.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.0] [ssl] [low] stark-provider-view-ui-dev.hlth.dev.chewy.com:443 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites:tls-1.1] [ssl] [low] stark-provider-view-ui-dev.hlth.dev.chewy.com:443 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[caa-fingerprint] [dns] [info] auth-sandbox.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] auth-qa.chewy.com [auth-qa.chewy.com.edgekey.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] auth-integration.chewy.com [auth-integration.chewy.com-v1.edgekey.net.]
+[nameserver-fingerprint] [dns] [info] adtech.prd.chewy.com [ns-1651.awsdns-14.co.uk.,ns-563.awsdns-06.net.,ns-1200.awsdns-22.org.,ns-443.awsdns-55.com.]
+[txt-fingerprint] [dns] [info] _acme-challenge.demo.petscriptions-stg.chewy.com ["ZluQqL0mO-slWH4J0uu2K0zwlatqGNympUp-TIndrGM"]
+[nameserver-fingerprint] [dns] [info] adtech.dev.chewy.com [ns-1532.awsdns-63.org.,ns-2001.awsdns-58.co.uk.,ns-502.awsdns-62.com.,ns-520.awsdns-01.net.]
+[nameserver-fingerprint] [dns] [info] ai-ml-shared.dev.aws.chewy.com [ns-708.awsdns-24.net.,ns-1364.awsdns-42.org.,ns-1768.awsdns-29.co.uk.,ns-251.awsdns-31.com.]
+[nameserver-fingerprint] [dns] [info] adtech.stg.chewy.com [ns-1189.awsdns-20.org.,ns-1615.awsdns-09.co.uk.,ns-311.awsdns-38.com.,ns-670.awsdns-19.net.]
+[servfail-refused-hosts] [dns] [info] account-dev.chewy.com
+[servfail-refused-hosts] [dns] [info] account-sbx.chewy.com
+[servfail-refused-hosts] [dns] [info] api.weather.chewy.com
+[caa-fingerprint] [dns] [info] api-haproxy.use1.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] adtech.stg.chewy.com
+[caa-fingerprint] [dns] [info] api-haproxy.use2.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] adtech.dev.chewy.com
+[caa-fingerprint] [dns] [info] api.chewy-studios.dev.chewy.com
+[caa-fingerprint] [dns] [info] auth-public.use1.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] ai-ml-shared.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] _acme-challenge.demo.petscriptions-stg.chewy.com [letsencrypt.org]
+[caa-fingerprint] [dns] [info] auth-qa.chewy.com
+[caa-fingerprint] [dns] [info] adtech.prd.chewy.com
+[caa-fingerprint] [dns] [info] auth-integration.chewy.com
+[caa-fingerprint] [dns] [info] auth-public.chewy.com
+[caa-fingerprint] [dns] [info] app.chewy.com
+[caa-fingerprint] [dns] [info] auth-qa-public.chewy.com
+[caa-fingerprint] [dns] [info] auth-sandbox-public.chewy.com
+[caa-fingerprint] [dns] [info] aurora-qa.chewy.com
+[caa-fingerprint] [dns] [info] auth-integration-public.chewy.com
+[caa-fingerprint] [dns] [info] auth-dev-public.chewy.com
+[caa-fingerprint] [dns] [info] aurora-dev.chewy.com
+[caa-fingerprint] [dns] [info] auth-dev.chewy.com
+[caa-fingerprint] [dns] [info] aurora-stg.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] authca-dev.chewy.com [authca-dev.chewy.com.edgekey.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] auth-stg.chewy.com [auth-stg.chewy.com.edgekey.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] authca.chewy.com [authca.chewy.com.edgekey.net.]
+[dns-saas-service-detection:ms-office] [dns] [info] autodiscover.chewy.com [autodiscover.outlook.com.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] auth.chewy.com [auth.chewy.com.edgekey.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] authca-stg.chewy.com [authca-stg.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] auth-stg-public.chewy.com
+[servfail-refused-hosts] [dns] [info] auth.vue.pro.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] be.chewy.com [be.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] bechewy-use1.demm.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] backend-cac1.prd.aws.chewy.com [ns-660.awsdns-18.net.,ns-1445.awsdns-52.org.,ns-1653.awsdns-14.co.uk.,ns-103.awsdns-12.com.]
+[caa-fingerprint] [dns] [info] blue-us-east-2-checkout.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] bechewy.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] bo.chewy.com
+[caa-fingerprint] [dns] [info] authca-stg.chewy.com
+[caa-fingerprint] [dns] [info] backend-cac1.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] auth.use1.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] autodiscover.chewy.com
+[caa-fingerprint] [dns] [info] blue-us-east-1-checkout.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] auth.chewy.com
+[caa-fingerprint] [dns] [info] backend-cac1.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] backend-cac1.stg.aws.chewy.com [ns-1458.awsdns-54.org.,ns-1972.awsdns-54.co.uk.,ns-281.awsdns-35.com.,ns-786.awsdns-34.net.]
+[caa-fingerprint] [dns] [info] auth-stg.chewy.com
+[caa-fingerprint] [dns] [info] backend-cac1.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] browse-service.prd.chewy.com [ns-1359.awsdns-41.org.,ns-1837.awsdns-37.co.uk.,ns-220.awsdns-27.com.,ns-811.awsdns-37.net.]
+[nameserver-fingerprint] [dns] [info] backend-cac1.dev.chewy.com [ns-1197.awsdns-21.org.,ns-1836.awsdns-37.co.uk.,ns-331.awsdns-41.com.,ns-861.awsdns-43.net.]
+[caa-fingerprint] [dns] [info] be.chewy.com
+[caa-fingerprint] [dns] [info] authca-dev.chewy.com
+[caa-fingerprint] [dns] [info] authca.chewy.com
+[caa-fingerprint] [dns] [info] authn-qa.chewy.com
+[caa-fingerprint] [dns] [info] authn-stg.chewy.com
+[caa-fingerprint] [dns] [info] authn-dev.chewy.com
+[caa-fingerprint] [dns] [info] authn.chewy.com
+[nameserver-fingerprint] [dns] [info] browse-service.stg.chewy.com [ns-12.awsdns-01.com.,ns-2027.awsdns-61.co.uk.,ns-900.awsdns-48.net.,ns-1160.awsdns-17.org.]
+[nameserver-fingerprint] [dns] [info] browse-service.qat.chewy.com [ns-1587.awsdns-06.co.uk.,ns-48.awsdns-06.com.,ns-1019.awsdns-63.net.,ns-1075.awsdns-06.org.]
+[caa-fingerprint] [dns] [info] browse-service.prd.chewy.com
+[caa-fingerprint] [dns] [info] browse-service.qat.chewy.com
+[caa-fingerprint] [dns] [info] browse-service.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] catscan.dev.chewy.com [ns-1983.awsdns-55.co.uk.,ns-949.awsdns-54.net.,ns-229.awsdns-28.com.,ns-1358.awsdns-41.org.]
+[mx-fingerprint] [dns] [info] chewy.com [10 us-smtp-inbound-1.mimecast.com.,10 us-smtp-inbound-2.mimecast.com.]
+[nameserver-fingerprint] [dns] [info] catscan.prd.chewy.com [ns-1478.awsdns-56.org.,ns-50.awsdns-06.com.,ns-2028.awsdns-61.co.uk.,ns-545.awsdns-04.net.]
+[nameserver-fingerprint] [dns] [info] careers.chewy.com [ns-867.awsdns-44.net.,ns-1531.awsdns-63.org.,ns-1694.awsdns-19.co.uk.,ns-359.awsdns-44.com.]
+[nameserver-fingerprint] [dns] [info] catscan.stg.chewy.com [ns-371.awsdns-46.com.,ns-1743.awsdns-25.co.uk.,ns-604.awsdns-11.net.,ns-1323.awsdns-37.org.]
+[caa-fingerprint] [dns] [info] careers.chewy.com
+[dns-saas-service-detection] [dns] [info] careers.chewy.com [chewy.phenompeople.com.]
+[mx-fingerprint] [dns] [info] clicks.ca.chewy.com [5 smtp.sparkpostmail.com.]
+[servfail-refused-hosts] [dns] [info] claws.stg.chewy.com
+[spf-record-detect] [dns] [info] chewy.com [v=spf1 redirect=6qfmpgd2._spf._d.mim.ec"]
+[txt-fingerprint] [dns] [info] chewy.com ["calendly-site-verification=bjxPcO9RgNGDSo1fqwyAne2atxLdXog0Y1SB8vTah","google-site-verification=rS-lcrUKNArmVTLo9lQwyy3oVNBvhe1oaFevxfkk98o","ZOOM_verify_ROZzIopYS6yQxVL_VXFX9w","atlassian-domain-verification=9rQkYfcNndYFEj2PCq79nytv4oFyptyPm0HSUhhavGeaQfXKcG0VqQaQquPVvpp2","google-site-verification=Jur6DhKSpHb8JdPpiSWoElWSzEImfGLjKiZi5o5cEFM","dropbox-domain-verification=20z3xpyreo57","intersight=d426e94b4bcbc31df6791ea0f60df63b77223cc2cf8c0876444c48e38b8659bb","jcOmR7aTTXveLiMFz3sX","xsplit_verify=pucmYqZCOh94AOAXlTzRvx2Jz+equTIil3Ke","onetrust-domain-verification=9fc5084c8302438184ff321467af18e2","docusign=d943473d-a78d-4535-a0a6-c1fd593c7e1f","google-site-verification=2xBXPVDBKBQ6cjsJnxra-moDhQiO8nkBaA5Mzw6Ctzc","smartsheet-site-validation=QjBiOsUEi46xk7inAtCGmy1sopHcomIH","ciscocidomainverification=*abb01234c0a5e2516dee9901eb11268e200e12f0896d2aa61bc63dd3afb5e4c*","apple-domain-verification=96qEQ3LHzYpotYy6","dk-8f4d009f-18d6-4831-9b53-f3cc97ebdcfd","v=spf1 redirect=6qfmpgd2._spf._d.mim.ec","facebook-domain-verification=06ackaysj049wxzawnsk5b9qn65vo0","onetrust-domain-verification=e92eb752491641ffb2e0d723807f6e15","_acme-challenge.demo.petscriptions-stg.chewy.com.=sQkkIbbHSUYL5yJ95f9Bw-bCklxDQX8h73DpA5Fd7eg","cloudhealth=f1eb8216-e240-4674-88ff-31146416720d","adobe-idp-site-verification=28a4536f69ce18910a9bffb7e572b954dfd436298d6c46cbe287c53eddfcd7ea","teamviewer-sso-verification=e09c775e27f8450e9eb7488971cba81f","Dynatrace-site-verification=12414786-4b02-4825-ab1b-5ba3e51a3070__2v6hsfe3unafovf4b74c5ud10n","atlassian-domain-verification=FdM1j999DskdHCxqJ9bKEghITGsNAUstK4TBi9Y//uUU8hMpOCzPpXRfIUk7cugr"]
+[servfail-refused-hosts] [dns] [info] chewysweepstakes.chewy.com
+[servfail-refused-hosts] [dns] [info] cep-messagegears.dev.chewy.com
+[caa-fingerprint] [dns] [info] catscan.dev.chewy.com
+[caa-fingerprint] [dns] [info] chewy-studios.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] chewy-ground-truth.dev.aws.chewy.com [ns-939.awsdns-53.net.,ns-1472.awsdns-56.org.,ns-28.awsdns-03.com.,ns-1886.awsdns-43.co.uk.]
+[caa-fingerprint] [dns] [info] checkout.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] claws.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] chewy-contactcenter.dev.aws.chewy.com [ns-1159.awsdns-16.org.,ns-1802.awsdns-33.co.uk.,ns-908.awsdns-49.net.,ns-288.awsdns-36.com.]
+[nameserver-fingerprint] [dns] [info] claws.stg.aws.chewy.com [ns-1734.awsdns-24.co.uk.,ns-1414.awsdns-48.org.,ns-919.awsdns-50.net.,ns-464.awsdns-58.com.]
+[caa-fingerprint] [dns] [info] chewy.com [awstrust.com,letsencrypt.org,amazonaws.com,amazontrust.com,digicert.com]
+[dns-saas-service-detection] [dns] [info] clicks.ca.chewy.com [spgo.io.]
+[nameserver-fingerprint] [dns] [info] chewy.com [a16-65.akam.net.,a13-65.akam.net.,dns1.p01.nsone.net.,dns3.p01.nsone.net.,dns4.p01.nsone.net.,a1-91.akam.net.,a28-65.akam.net.,a20-65.akam.net.,a3-67.akam.net.,dns2.p01.nsone.net.]
+[caa-fingerprint] [dns] [info] catscan.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] chewy-studios.prd.chewy.com [ns-485.awsdns-60.com.,ns-898.awsdns-48.net.,ns-1180.awsdns-19.org.,ns-2010.awsdns-59.co.uk.]
+[caa-fingerprint] [dns] [info] chewy-ground-truth.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] chewy-studios.prd.chewy.com
+[caa-fingerprint] [dns] [info] catscan.prd.chewy.com
+[caa-fingerprint] [dns] [info] chewy-ground-truth.stg.aws.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] client-stark-prd.chewy.com [client-stark-prd.chewy.com.edgekey.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] clicks-paws.chewy.com [clicks-paws.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] claws.prd.chewy.com
+[caa-fingerprint] [dns] [info] chewy-contactcenter.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] chewy-studios.dev.chewy.com [ns-1170.awsdns-18.org.,ns-1904.awsdns-46.co.uk.,ns-48.awsdns-06.com.,ns-731.awsdns-27.net.]
+[nameserver-fingerprint] [dns] [info] claws.prd.chewy.com [ns-1183.awsdns-19.org.,ns-1548.awsdns-01.co.uk.,ns-42.awsdns-05.com.,ns-878.awsdns-45.net.]
+[nameserver-fingerprint] [dns] [info] chewy-ground-truth.stg.aws.chewy.com [ns-1990.awsdns-56.co.uk.,ns-405.awsdns-50.com.,ns-603.awsdns-11.net.,ns-1027.awsdns-00.org.]
+[nameserver-fingerprint] [dns] [info] claws.dev.chewy.com [ns-83.awsdns-10.com.,ns-984.awsdns-59.net.,ns-1415.awsdns-48.org.,ns-1929.awsdns-49.co.uk.]
+[caa-fingerprint] [dns] [info] cart-store-use2.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] cart-store-use1.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] claws.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] client-stark-prd.chewy.com
+[dmarc-detect] [dns] [info] _dmarc.chewy.com ["v=DMARC1; p=reject; rua=mailto:21fb0c838604714@rep.dmarcanalyzer.com; ruf=mailto:21fb0c838604714@for.dmarcanalyzer.com; fo=1;"]
+[nameserver-fingerprint] [dns] [info] clicks.ca.chewy.com [ns-678.awsdns-20.net.,ns-1380.awsdns-44.org.,ns-1748.awsdns-26.co.uk.,ns-277.awsdns-34.com.]
+[caa-fingerprint] [dns] [info] clicks.ca.chewy.com
+[caa-fingerprint] [dns] [info] clicks-paws.chewy.com
+[nameserver-fingerprint] [dns] [info] collar.dev.chewy.com [ns-570.awsdns-07.net.,ns-1820.awsdns-35.co.uk.,ns-208.awsdns-26.com.,ns-1087.awsdns-07.org.]
+[nameserver-fingerprint] [dns] [info] collar.prd.chewy.com [ns-1268.awsdns-30.org.,ns-365.awsdns-45.com.,ns-718.awsdns-25.net.,ns-1798.awsdns-32.co.uk.]
+[caa-fingerprint] [dns] [info] collar.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] collar.prd.aws.chewy.com [ns-1487.awsdns-57.org.,ns-1669.awsdns-16.co.uk.,ns-646.awsdns-16.net.,ns-91.awsdns-11.com.]
+[txt-fingerprint] [dns] [info] collect.chewy.com ["google-site-verification=AIrFTL2uXmPlGVSMMnYQoIgxcoDkUyrBabBJI45KnT8"]
+[nameserver-fingerprint] [dns] [info] corp-ai-workloads.dev.aws.chewy.com [ns-1166.awsdns-17.org.,ns-1966.awsdns-53.co.uk.,ns-490.awsdns-61.com.,ns-863.awsdns-43.net.]
+[nameserver-fingerprint] [dns] [info] collar.stg.chewy.com [ns-1438.awsdns-51.org.,ns-1724.awsdns-23.co.uk.,ns-329.awsdns-41.com.,ns-1020.awsdns-63.net.]
+[caa-fingerprint] [dns] [info] collar.dev.chewy.com
+[caa-fingerprint] [dns] [info] collar.prd.chewy.com
+[caa-fingerprint] [dns] [info] collab-edge.chewy.com
+[nameserver-fingerprint] [dns] [info] corp.prd.chewy.com [ns-285.awsdns-35.com.,ns-1883.awsdns-43.co.uk.,ns-1148.awsdns-15.org.,ns-1003.awsdns-61.net.]
+[caa-fingerprint] [dns] [info] corp-ai-workloads.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] corp-ai-workloads.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] corp.dev.chewy.com [ns-1176.awsdns-19.org.,ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.]
+[caa-fingerprint] [dns] [info] collect.chewy.com
+[caa-fingerprint] [dns] [info] collar.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] corp-ai-workloads.prd.aws.chewy.com [ns-1005.awsdns-61.net.,ns-1522.awsdns-62.org.,ns-1562.awsdns-03.co.uk.,ns-98.awsdns-12.com.]
+[caa-fingerprint] [dns] [info] corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] corp.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] corp.qat.chewy.com [ns-84.awsdns-10.com.,ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-1203.awsdns-22.org.]
+[nameserver-fingerprint] [dns] [info] corp.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.,ns-299.awsdns-37.com.]
+[caa-fingerprint] [dns] [info] corp.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] csbb.prd.chewy.com [ns-1508.awsdns-60.org.,ns-1787.awsdns-31.co.uk.,ns-101.awsdns-12.com.,ns-733.awsdns-27.net.]
+[caa-fingerprint] [dns] [info] csbb.dev.chewy.com
+[caa-fingerprint] [dns] [info] csbb.qat.chewy.com
+[caa-fingerprint] [dns] [info] corp.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] csbb.sbx.chewy.com [ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.,ns-734.awsdns-27.net.,ns-1940.awsdns-50.co.uk.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] cwav-vetview-prd.chewy.com [cwav-vetview-prd.chewy.com.edgekey.net.]
+[dns-saas-service-detection:amazon-aws] [dns] [info] dam-stg.chewy.com [chewy-stage65-2112430276.us-east-1.elb.amazonaws.com.]
+[caa-fingerprint] [dns] [info] csbb.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] corp.sbx.chewy.com [ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.,ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.]
+[dns-saas-service-detection:amazon-aws] [dns] [info] dam.chewy.com [chewy-prod-889269380.us-east-1.elb.amazonaws.com.]
+[caa-fingerprint] [dns] [info] cqct7prz.paws.chewy.com
+[nameserver-fingerprint] [dns] [info] csbb.qat.chewy.com [ns-84.awsdns-10.com.,ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.]
+[nameserver-fingerprint] [dns] [info] csbb.dev.chewy.com [ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.,ns-1176.awsdns-19.org.]
+[caa-fingerprint] [dns] [info] csbb.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] csbb.stg.chewy.com [ns-1440.awsdns-52.org.,ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-629.awsdns-14.net.]
+[caa-fingerprint] [dns] [info] corp.qat.chewy.com
+[caa-fingerprint] [dns] [info] csbb.qa.chewy.com
+[caa-fingerprint] [dns] [info] corp.qa.chewy.com
+[nameserver-fingerprint] [dns] [info] data-lake.dev.chewy.com [ns-1065.awsdns-05.org.,ns-976.awsdns-58.net.,ns-372.awsdns-46.com.,ns-1860.awsdns-40.co.uk.]
+[caa-fingerprint] [dns] [info] data-lake-pipeline.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] data-lake-pipeline.stg.aws.chewy.com [ns-801.awsdns-36.net.,ns-1750.awsdns-26.co.uk.,ns-1325.awsdns-37.org.,ns-179.awsdns-22.com.]
+[nameserver-fingerprint] [dns] [info] data-lake-pipeline.dev.aws.chewy.com [ns-1283.awsdns-32.org.,ns-2024.awsdns-61.co.uk.,ns-23.awsdns-02.com.,ns-763.awsdns-31.net.]
+[nameserver-fingerprint] [dns] [info] data-lake-pipeline.prd.aws.chewy.com [ns-1041.awsdns-02.org.,ns-1763.awsdns-28.co.uk.,ns-27.awsdns-03.com.,ns-742.awsdns-28.net.]
+[caa-fingerprint] [dns] [info] csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] dam.chewy.com
+[caa-fingerprint] [dns] [info] cwav-vetview-prd.chewy.com
+[caa-fingerprint] [dns] [info] data-lake-pipeline.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] dam-stg.chewy.com
+[servfail-refused-hosts] [dns] [info] datazone-prd.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] data-lake.stg.chewy.com [ns-1651.awsdns-14.co.uk.,ns-669.awsdns-19.net.,ns-1437.awsdns-51.org.,ns-100.awsdns-12.com.]
+[caa-fingerprint] [dns] [info] data-lake.dev.chewy.com
+[caa-fingerprint] [dns] [info] data-lake.prd.chewy.com
+[caa-fingerprint] [dns] [info] data-lake-pipeline.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] datascientists-sc-fp.prd.chewy.com [ns-1069.awsdns-05.org.,ns-1624.awsdns-11.co.uk.,ns-458.awsdns-57.com.,ns-652.awsdns-17.net.]
+[nameserver-fingerprint] [dns] [info] data-lake.prd.chewy.com [ns-1709.awsdns-21.co.uk.,ns-313.awsdns-39.com.,ns-572.awsdns-07.net.,ns-1379.awsdns-44.org.]
+[servfail-refused-hosts] [dns] [info] default.edi-qa.chewy.com
+[nameserver-fingerprint] [dns] [info] deepracer.dev.chewy.com [ns-1374.awsdns-43.org.,ns-756.awsdns-30.net.,ns-1597.awsdns-07.co.uk.,ns-22.awsdns-02.com.]
+[nameserver-fingerprint] [dns] [info] datazone.dev.aws.chewy.com [ns-835.awsdns-40.net.,ns-341.awsdns-42.com.,ns-1648.awsdns-14.co.uk.,ns-1027.awsdns-00.org.]
+[caa-fingerprint] [dns] [info] data-lake.stg.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] demo.petscriptions-stg.chewy.com [demo.petscriptions-stg.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] datascientists-sc-fp.prd.chewy.com
+[caa-fingerprint] [dns] [info] datazone.dev.aws.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] demo.petscriptions.chewy.com [demo.petscriptions.chewy.com.edgekey.net.]
+[nameserver-fingerprint] [dns] [info] datazone.prd.aws.chewy.com [ns-1228.awsdns-25.org.,ns-172.awsdns-21.com.,ns-1747.awsdns-26.co.uk.,ns-902.awsdns-48.net.]
+[servfail-refused-hosts] [dns] [info] dev-vendors.chewy.com
+[caa-fingerprint] [dns] [info] demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] demm.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] dev-prescriptions.chewy.com [ns-1721.awsdns-23.co.uk.,ns-292.awsdns-36.com.,ns-972.awsdns-57.net.,ns-1520.awsdns-62.org.]
+[nameserver-fingerprint] [dns] [info] demm.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-1100.awsdns-09.org.,ns-734.awsdns-27.net.,ns-151.awsdns-18.com.]
+[caa-fingerprint] [dns] [info] demm.dev.chewy.com
+[caa-fingerprint] [dns] [info] demo.petscriptions-stg.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] digitalassets.chewy.com [san5-ion.scene7.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] demm.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] demm.qat.chewy.com [ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-84.awsdns-10.com.,ns-1203.awsdns-22.org.]
+[nameserver-fingerprint] [dns] [info] demm.dev.chewy.com [ns-1176.awsdns-19.org.,ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.]
+[caa-fingerprint] [dns] [info] demm.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] dev.awsdev.chewy.com [ns-1257.awsdns-29.org.,ns-652.awsdns-17.net.,ns-400.awsdns-50.com.,ns-1754.awsdns-27.co.uk.]
+[nameserver-fingerprint] [dns] [info] demm.stg.chewy.com [ns-299.awsdns-37.com.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.,ns-1815.awsdns-34.co.uk.]
+[caa-fingerprint] [dns] [info] datazone.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] deepracer.dev.chewy.com
+[caa-fingerprint] [dns] [info] dev-prescriptions.chewy.com
+[nameserver-fingerprint] [dns] [info] demm.prd.chewy.com [ns-1478.awsdns-56.org.,ns-1837.awsdns-37.co.uk.,ns-212.awsdns-26.com.,ns-700.awsdns-23.net.]
+[caa-fingerprint] [dns] [info] demo.petscriptions.chewy.com
+[dns-saas-service-detection:amazon-aws] [dns] [info] dotcms.use1.demm.prd.chewy.com [vpce-03c25925521095c0c-qkj1a2yv.vpce-svc-02c54ec238bed86ee.us-east-1.vpce.amazonaws.com.]
+[dns-saas-service-detection:amazon-aws] [dns] [info] dotcms.use1.demm.dev.chewy.com [vpce-01a7016f1bd1dbcf0-i7t7mw4n.vpce-svc-0d99fe04feef9b6d2.us-east-1.vpce.amazonaws.com.]
+[detect-dangling-cname] [dns] [info] dotcms.use1.demm.dev.chewy.com [vpce-01a7016f1bd1dbcf0-i7t7mw4n.vpce-svc-0d99fe04feef9b6d2.us-east-1.vpce.amazonaws.com.]
+[caa-fingerprint] [dns] [info] demm.qa.chewy.com
+[dns-saas-service-detection:amazon-aws] [dns] [info] dotcms.use1.demm.stg.chewy.com [vpce-028eff6379840bd7c-xcvprhla.vpce-svc-04f42e47bbf63a697.us-east-1.vpce.amazonaws.com.]
+[caa-fingerprint] [dns] [info] dns-delegation-test.dev.chewy.com
+[dns-saas-service-detection:amazon-aws] [dns] [info] dotcms.use1.demm.qat.chewy.com [vpce-0d15a79141eb11728-muvgyejj.vpce-svc-0868846ec9045480b.us-east-1.vpce.amazonaws.com.]
+[nameserver-fingerprint] [dns] [info] dev.chewy.com [ns-1687.awsdns-18.co.uk.,ns-417.awsdns-52.com.,ns-547.awsdns-04.net.,ns-1278.awsdns-31.org.]
+[caa-fingerprint] [dns] [info] digitalassets.chewy.com
+[caa-fingerprint] [dns] [info] dev.awsdev.chewy.com
+[nameserver-fingerprint] [dns] [info] dns-delegation-test.dev.chewy.com [ns-1314.awsdns-36.org.,ns-1875.awsdns-42.co.uk.,ns-285.awsdns-35.com.,ns-829.awsdns-39.net.]
+[caa-fingerprint] [dns] [info] dev.chewy.com
+[dns-saas-service-detection:amazon-aws] [dns] [info] dotcms.use2.demm.prd.chewy.com [vpce-03c25925521095c0c-qkj1a2yv.vpce-svc-02c54ec238bed86ee.us-east-1.vpce.amazonaws.com.]
+[caa-fingerprint] [dns] [info] diana-sandbox.dse-np.chewy.com
+[caa-fingerprint] [dns] [info] dotcms.use1.demm.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-cape.prd.chewy.com [ns-541.awsdns-03.net.,ns-1446.awsdns-52.org.,ns-395.awsdns-49.com.,ns-1829.awsdns-36.co.uk.]
+[caa-fingerprint] [dns] [info] dotcms.use1.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] dotcms.use1.demm.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] ds-cswas.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-claws.prd.aws.chewy.com [ns-1235.awsdns-26.org.,ns-845.awsdns-41.net.,ns-1956.awsdns-52.co.uk.,ns-429.awsdns-53.com.]
+[caa-fingerprint] [dns] [info] ds-cape.prd.chewy.com
+[caa-fingerprint] [dns] [info] dotcms.use2.demm.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-cs-insights.prd.aws.chewy.com [ns-1364.awsdns-42.org.,ns-18.awsdns-02.com.,ns-657.awsdns-18.net.,ns-1994.awsdns-57.co.uk.]
+[nameserver-fingerprint] [dns] [info] ds-csaws.prd.aws.chewy.com [ns-736.awsdns-28.net.,ns-1548.awsdns-01.co.uk.,ns-426.awsdns-53.com.,ns-1449.awsdns-53.org.]
+[caa-fingerprint] [dns] [info] dotcms.use1.demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] ds-chewy-people.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] ds-cs-insights.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-chewy-people.prd.aws.chewy.com [ns-1049.awsdns-03.org.,ns-1643.awsdns-13.co.uk.,ns-198.awsdns-24.com.,ns-951.awsdns-54.net.]
+[servfail-refused-hosts] [dns] [info] ds-ltp.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-discovery.prd.chewy.com [ns-921.awsdns-51.net.,ns-211.awsdns-26.com.,ns-1603.awsdns-08.co.uk.,ns-1534.awsdns-63.org.]
+[caa-fingerprint] [dns] [info] ds-discovery.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-dscvry-anlytics.prd.chewy.com [ns-1586.awsdns-06.co.uk.,ns-72.awsdns-09.com.,ns-1030.awsdns-00.org.,ns-531.awsdns-02.net.]
+[nameserver-fingerprint] [dns] [info] ds-example-pipelines.prd.aws.chewy.com [ns-1689.awsdns-19.co.uk.,ns-39.awsdns-04.com.,ns-1171.awsdns-18.org.,ns-526.awsdns-01.net.]
+[caa-fingerprint] [dns] [info] ds-csaws.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-data-lake-pipeline.prd.aws.chewy.com [ns-1577.awsdns-05.co.uk.,ns-946.awsdns-54.net.,ns-308.awsdns-38.com.,ns-1386.awsdns-45.org.]
+[caa-fingerprint] [dns] [info] ds-fraud.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-example-pipelines.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] ds-inv-optim.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-mkt-platform.prd.aws.chewy.com [ns-203.awsdns-25.com.,ns-1919.awsdns-47.co.uk.,ns-630.awsdns-14.net.,ns-1131.awsdns-13.org.]
+[nameserver-fingerprint] [dns] [info] ds-mkt-mlops.prd.chewy.com [ns-972.awsdns-57.net.,ns-1447.awsdns-52.org.,ns-1603.awsdns-08.co.uk.,ns-247.awsdns-30.com.]
+[nameserver-fingerprint] [dns] [info] ds-inv-optim.prd.aws.chewy.com [ns-184.awsdns-23.com.,ns-637.awsdns-15.net.,ns-1528.awsdns-63.org.,ns-1796.awsdns-32.co.uk.]
+[caa-fingerprint] [dns] [info] ds-data-lake-pipeline.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] ds-dscvry-anlytics.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-merch-analytics.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-merch-analytics.prd.aws.chewy.com [ns-1155.awsdns-16.org.,ns-1684.awsdns-18.co.uk.,ns-29.awsdns-03.com.,ns-547.awsdns-04.net.]
+[nameserver-fingerprint] [dns] [info] ds-fc-optimization.prd.chewy.com [ns-1034.awsdns-01.org.,ns-1551.awsdns-01.co.uk.,ns-180.awsdns-22.com.,ns-892.awsdns-47.net.]
+[caa-fingerprint] [dns] [info] ds-fc-optimization.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-fraud.prd.chewy.com [ns-439.awsdns-54.com.,ns-871.awsdns-44.net.,ns-1496.awsdns-59.org.,ns-1743.awsdns-25.co.uk.]
+[servfail-refused-hosts] [dns] [info] ds-recmd-delivery.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-mkt-mlops.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-ors.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-mkt-platform.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-promise.prd.aws.chewy.com [ns-1598.awsdns-07.co.uk.,ns-1039.awsdns-01.org.,ns-315.awsdns-39.com.,ns-799.awsdns-35.net.]
+[nameserver-fingerprint] [dns] [info] ds-mkt-science.prd.aws.chewy.com [ns-872.awsdns-45.net.,ns-1227.awsdns-25.org.,ns-1544.awsdns-01.co.uk.,ns-508.awsdns-63.com.]
+[nameserver-fingerprint] [dns] [info] ds-mkt-science.dev.aws.chewy.com [ns-642.awsdns-16.net.,ns-1383.awsdns-44.org.,ns-295.awsdns-36.com.,ns-1765.awsdns-28.co.uk.]
+[nameserver-fingerprint] [dns] [info] ds-ors.prd.chewy.com [ns-347.awsdns-43.com.,ns-1858.awsdns-40.co.uk.,ns-980.awsdns-58.net.,ns-1084.awsdns-07.org.]
+[caa-fingerprint] [dns] [info] ds-mkt-science.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-pricing-analytics.prd.aws.chewy.com [ns-1309.awsdns-35.org.,ns-1696.awsdns-20.co.uk.,ns-326.awsdns-40.com.,ns-616.awsdns-13.net.]
+[caa-fingerprint] [dns] [info] ds-claws.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] ds-mkt-science.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-replen.prd.aws.chewy.com [ns-80.awsdns-10.com.,ns-1347.awsdns-40.org.,ns-1551.awsdns-01.co.uk.,ns-679.awsdns-20.net.]
+[caa-fingerprint] [dns] [info] ds-promise.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-sc-research-plan.prd.aws.chewy.com [ns-446.awsdns-55.com.,ns-1400.awsdns-47.org.,ns-1543.awsdns-00.co.uk.,ns-760.awsdns-31.net.]
+[caa-fingerprint] [dns] [info] ds-pricing-analytics.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-sc-concepts.prd.chewy.com [ns-1527.awsdns-62.org.,ns-1903.awsdns-45.co.uk.,ns-389.awsdns-48.com.,ns-540.awsdns-03.net.]
+[servfail-refused-hosts] [dns] [info] ds-weaverbird.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-replen.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-sponsored-ads.prd.aws.chewy.com [ns-363.awsdns-45.com.,ns-1903.awsdns-45.co.uk.,ns-1066.awsdns-05.org.,ns-519.awsdns-00.net.]
+[caa-fingerprint] [dns] [info] ds-snop.prd.aws.chewy.com
+[dns-saas-service-detection] [dns] [info] erpnext.chewy.com [chewy-prd.frappe.cloud.]
+[caa-fingerprint] [dns] [info] ds-sc-concepts.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-thephds-atworks.prd.chewy.com [ns-1721.awsdns-23.co.uk.,ns-1027.awsdns-00.org.,ns-848.awsdns-42.net.,ns-401.awsdns-50.com.]
+[caa-fingerprint] [dns] [info] ds-sc-research-plan.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] ds-sponsored-ads.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] ds-thebestapp-uta-woof.prd.aws.chewy.com [ns-1836.awsdns-37.co.uk.,ns-324.awsdns-40.com.,ns-764.awsdns-31.net.,ns-1301.awsdns-34.org.]
+[nameserver-fingerprint] [dns] [info] ds-snop.prd.aws.chewy.com [ns-1426.awsdns-50.org.,ns-1566.awsdns-03.co.uk.,ns-216.awsdns-27.com.,ns-987.awsdns-59.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] email-sendgrid-deep-linking.chewy.com [email-sendgrid-deep-linking.chewy.com.edgekey.net.]
+[nameserver-fingerprint] [dns] [info] ds-vopx-automation.prd.aws.chewy.com [ns-1143.awsdns-14.org.,ns-1903.awsdns-45.co.uk.,ns-436.awsdns-54.com.,ns-877.awsdns-45.net.]
+[servfail-refused-hosts] [dns] [info] europa-qa.chewy.com
+[servfail-refused-hosts] [dns] [info] edi.chewy.com
+[servfail-refused-hosts] [dns] [info] europa.chewy.com
+[caa-fingerprint] [dns] [info] ds-thephds-atworks.prd.chewy.com
+[caa-fingerprint] [dns] [info] ebi-analytical-platform.prd.chewy.com
+[caa-fingerprint] [dns] [info] ds-vopx-automation.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] euc-developer.dev.aws.chewy.com [ns-1420.awsdns-49.org.,ns-2038.awsdns-62.co.uk.,ns-959.awsdns-55.net.,ns-212.awsdns-26.com.]
+[caa-fingerprint] [dns] [info] dse-np.chewy.com
+[caa-fingerprint] [dns] [info] ebi-analytical-platform.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] dse-np.chewy.com [ns-1110.awsdns-10.org.,ns-1949.awsdns-51.co.uk.,ns-233.awsdns-29.com.,ns-651.awsdns-17.net.]
+[nameserver-fingerprint] [dns] [info] dse.chewy.com [ns-343.awsdns-42.com.,ns-629.awsdns-14.net.,ns-1193.awsdns-21.org.,ns-1610.awsdns-09.co.uk.]
+[caa-fingerprint] [dns] [info] ds-thebestapp-uta-woof.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] email-sendgrid-deep-linking.chewy.com
+[nameserver-fingerprint] [dns] [info] ebi-analytical-platform.dev.chewy.com [ns-1082.awsdns-07.org.,ns-1844.awsdns-38.co.uk.,ns-21.awsdns-02.com.,ns-786.awsdns-34.net.]
+[caa-fingerprint] [dns] [info] ebi-analytical-platform.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] ebi-analytical-platform.prd.chewy.com [ns-1451.awsdns-53.org.,ns-1883.awsdns-43.co.uk.,ns-280.awsdns-35.com.,ns-705.awsdns-24.net.]
+[caa-fingerprint] [dns] [info] dse.chewy.com
+[nameserver-fingerprint] [dns] [info] ebi-analytical-platform.stg.chewy.com [ns-403.awsdns-50.com.,ns-893.awsdns-47.net.,ns-1148.awsdns-15.org.,ns-1891.awsdns-44.co.uk.]
+[servfail-refused-hosts] [dns] [info] expwycluster.chewy.com
+[caa-fingerprint] [dns] [info] euc-developer.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] erpnext.chewy.com
+[caa-fingerprint] [dns] [info] erpnext-dev.chewy.com
+[caa-fingerprint] [dns] [info] eventanalytics.chewy.com
+[nameserver-fingerprint] [dns] [info] fcreliability.dev.aws.chewy.com [ns-448.awsdns-56.com.,ns-590.awsdns-09.net.,ns-1832.awsdns-37.co.uk.,ns-1347.awsdns-40.org.]
+[caa-fingerprint] [dns] [info] expresswayb.chewy.com
+[caa-fingerprint] [dns] [info] expresswaya.chewy.com
+[nameserver-fingerprint] [dns] [info] fetch.stg.chewy.com [ns-1773.awsdns-29.co.uk.,ns-1201.awsdns-22.org.,ns-842.awsdns-41.net.,ns-285.awsdns-35.com.]
+[caa-fingerprint] [dns] [info] fetch.prd.chewy.com
+[caa-fingerprint] [dns] [info] fcreliability.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] fetch.prd.chewy.com [ns-1310.awsdns-35.org.,ns-1886.awsdns-43.co.uk.,ns-620.awsdns-13.net.,ns-1.awsdns-00.com.]
+[nameserver-fingerprint] [dns] [info] fetch.dev.chewy.com [ns-1441.awsdns-52.org.,ns-1956.awsdns-52.co.uk.,ns-325.awsdns-40.com.,ns-743.awsdns-28.net.]
+[caa-fingerprint] [dns] [info] fetch.dev.chewy.com
+[caa-fingerprint] [dns] [info] fast.chewy.com
+[caa-fingerprint] [dns] [info] facts.chewy.com
+[servfail-refused-hosts] [dns] [info] genai-sandbox.dev.aws.chewy.com
+[dns-saas-service-detection:amazon-aws] [dns] [info] fulcrum-wf.corp.prd.chewy.com [s-41c0f5e176044802a.server.transfer.us-east-1.amazonaws.com.]
+[caa-fingerprint] [dns] [info] findata-test.chewy.com
+[caa-fingerprint] [dns] [info] findata.chewy.com
+[caa-fingerprint] [dns] [info] fivruwtq.paws.chewy.com
+[caa-fingerprint] [dns] [info] fll2txwe02.chewy.com
+[caa-fingerprint] [dns] [info] flltivgf.chewy.com
+[caa-fingerprint] [dns] [info] fetch.stg.chewy.com
+[caa-fingerprint] [dns] [info] fll2tivgf.chewy.com
+[caa-fingerprint] [dns] [info] fll2txwc02.chewy.com
+[caa-fingerprint] [dns] [info] fll2aipa01stg.ecom.chewy.com
+[caa-fingerprint] [dns] [info] fll2aipa02stg.ecom.chewy.com
+[caa-fingerprint] [dns] [info] fll2vcs01.chewy.com
+[servfail-refused-hosts] [dns] [info] healthcare.vendors-demo.chewy.com
+[servfail-refused-hosts] [dns] [info] hades.chewy.com
+[servfail-refused-hosts] [dns] [info] healthcare.hms.chewy.com
+[caa-fingerprint] [dns] [info] fulcrum-wf.corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] git.shss.chewy.com
+[caa-fingerprint] [dns] [info] ft91qipa.paws.chewy.com
+[caa-fingerprint] [dns] [info] gluu-poc.chewy.com
+[caa-fingerprint] [dns] [info] forclicks.paws.chewy.com
+[servfail-refused-hosts] [dns] [info] healthcare2.hms.chewy.com
+[caa-fingerprint] [dns] [info] green-us-east-1-checkout.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] green-us-east-2-checkout.opta.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] hopsworks.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] hopsworks.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] hlth.dev.chewy.com [ns-359.awsdns-44.com.,ns-1887.awsdns-43.co.uk.,ns-1176.awsdns-19.org.,ns-905.awsdns-49.net.]
+[caa-fingerprint] [dns] [info] hec.chewy.com
+[nameserver-fingerprint] [dns] [info] hlth.prd.chewy.com [ns-1522.awsdns-62.org.,ns-1939.awsdns-50.co.uk.,ns-371.awsdns-46.com.,ns-599.awsdns-10.net.]
+[caa-fingerprint] [dns] [info] healthcare.vendors.chewy.com
+[caa-fingerprint] [dns] [info] hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] hlth.stg.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] image.chewy.com [image.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] hlth.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] hlth.qat.chewy.com [ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-1203.awsdns-22.org.,ns-84.awsdns-10.com.]
+[nameserver-fingerprint] [dns] [info] hlth.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-151.awsdns-18.com.,ns-1100.awsdns-09.org.,ns-734.awsdns-27.net.]
+[nameserver-fingerprint] [dns] [info] hlth.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.,ns-299.awsdns-37.com.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] img.chewy.com [img.chewy.com.ipv6.edgekey.net.]
+[caa-fingerprint] [dns] [info] hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] hlth.prd.chewy.com
+[caa-fingerprint] [dns] [info] iad1txwc01.chewy.com
+[caa-fingerprint] [dns] [info] iad2ddgmc01.chewy.com
+[caa-fingerprint] [dns] [info] iad2avar01.chewy.com
+[caa-fingerprint] [dns] [info] hlth.qa.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-affiliate-site-crawl.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-chewy-unleashed.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-chewy-kool-kids.dev.chewy.com
+[caa-fingerprint] [dns] [info] iad2txwe02.chewy.com
+[caa-fingerprint] [dns] [info] igelmgmtprd.chewy.com
+[caa-fingerprint] [dns] [info] igelmgmtstg.chewy.com
+[caa-fingerprint] [dns] [info] iadtivge.chewy.com
+[caa-fingerprint] [dns] [info] iad3tivge.chewy.com
+[caa-fingerprint] [dns] [info] iad2txwc02.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-cool-kids.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-gimmesomelove.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-eb-dream-team.dev.chewy.com
+[caa-fingerprint] [dns] [info] img.chewy.com
+[caa-fingerprint] [dns] [info] image.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-shelters-and-rescues.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-pawsome-pay.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-pythia.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-pixel-bandits.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-pet-pals.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-product-img.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-good-names.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-petsnap.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-review-insights.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-team-goodies.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-tony-and-the-boys.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-wit-so-fur-so-good.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-vpp-visionaries-coalition.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-sophia.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-vppvisionaries.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inno-days-wicked-cool-cats.dev.chewy.com
+[dns-saas-service-detection] [dns] [info] internal-talent-hub.chewy.com [chewyinc-prod.phenompeople.net.]
+[servfail-refused-hosts] [dns] [info] ipa.chewy.com
+[servfail-refused-hosts] [dns] [info] inventory-optimization.stg.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inventory-optimization.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] inventory.chewy.com
+[nameserver-fingerprint] [dns] [info] internal-talent-hub.chewy.com [ns-330.awsdns-41.com.,ns-1628.awsdns-11.co.uk.,ns-1139.awsdns-14.org.,ns-714.awsdns-25.net.]
+[dns-saas-service-detection:q4-investor-relations] [dns] [info] investor.chewy.com [webfarm-09.q4web.com.]
+[caa-fingerprint] [dns] [info] internal-talent-hub.chewy.com
+[spf-record-detect] [dns] [info] isv.chewy.com [v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 include:ab.sendgrid.net ~all"]
+[txt-fingerprint] [dns] [info] isv.chewy.com ["google-site-verification=1UEf8ey-RibUjY6gnpqIZFjWNqMknmeyeHz1zTmj0DE","v=spf1 ip4:167.89.0.0/17 ip4:208.117.48.0/20 ip4:50.31.32.0/19 ip4:198.37.144.0/20 ip4:198.21.0.0/21 ip4:192.254.112.0/20 ip4:168.245.0.0/17 ip4:149.72.0.0/16 ip4:159.183.0.0/16 include:ab.sendgrid.net ~all","i52uk89q4nfe1mpgqv5qsmsj3j.","p8bnb2lp424dkl3c4io1aemiei","mailru-verification: 2e3995fa8a7d00e0"]
+[dns-saas-service-detection:sendgrid] [dns] [info] isv.chewy.com [sendgrid.net.]
+[servfail-refused-hosts] [dns] [info] jenn-test.dev.awsdev.chewy.com
+[mx-fingerprint] [dns] [info] isv.chewy.com [10 mx.sendgrid.net.,20 mx2.sendgrid.net.]
+[nameserver-fingerprint] [dns] [info] isv.chewy.com [ns14.dnsmadeeasy.com.,ns10.dnsmadeeasy.com.,ns12.dnsmadeeasy.com.,ns15.dnsmadeeasy.com.,ns11.dnsmadeeasy.com.,ns13.dnsmadeeasy.com.]
+[servfail-refused-hosts] [dns] [info] kputta-test.dev.awsdev.chewy.com
+[servfail-refused-hosts] [dns] [info] laborplanning-api-sandbox.chewy.com
+[caa-fingerprint] [dns] [info] investor.chewy.com
+[nameserver-fingerprint] [dns] [info] krand-test.dev.awsdev.chewy.com [ns-1237.awsdns-26.org.,ns-142.awsdns-17.com.,ns-862.awsdns-43.net.,ns-1686.awsdns-18.co.uk.]
+[caa-fingerprint] [dns] [info] jacob-test.dev.awsdev.chewy.com
+[nameserver-fingerprint] [dns] [info] kputta-py311.dev.awsdev.chewy.com [ns-544.awsdns-04.net.,ns-1693.awsdns-19.co.uk.,ns-1373.awsdns-43.org.,ns-331.awsdns-41.com.]
+[caa-fingerprint] [dns] [info] isv.chewy.com [amazonaws.com,godaddy.com]
+[nameserver-fingerprint] [dns] [info] jacob-test.dev.awsdev.chewy.com [ns-1145.awsdns-15.org.,ns-1840.awsdns-38.co.uk.,ns-668.awsdns-19.net.,ns-72.awsdns-09.com.]
+[servfail-refused-hosts] [dns] [info] laborplanning-staging.chewy.com
+[servfail-refused-hosts] [dns] [info] laborplanning-sandbox.chewy.com
+[servfail-refused-hosts] [dns] [info] laborplanning-qa.chewy.com
+[servfail-refused-hosts] [dns] [info] laborplanning.chewy.com
+[nameserver-fingerprint] [dns] [info] kyrios-mdm.stg.chewy.com [ns-842.awsdns-41.net.,ns-1106.awsdns-10.org.,ns-1638.awsdns-12.co.uk.,ns-245.awsdns-30.com.]
+[caa-fingerprint] [dns] [info] kyrios-mdm.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] legacy-be.chewy.com [ns-1759.awsdns-27.co.uk.,ns-166.awsdns-20.com.,ns-754.awsdns-30.net.,ns-1394.awsdns-46.org.]
+[nameserver-fingerprint] [dns] [info] kyrios-mdm.prd.chewy.com [ns-912.awsdns-50.net.,ns-1104.awsdns-10.org.,ns-21.awsdns-02.com.,ns-1992.awsdns-57.co.uk.]
+[caa-fingerprint] [dns] [info] kvezsmz3.paws.chewy.com
+[caa-fingerprint] [dns] [info] labormanagement.chewy.com
+[caa-fingerprint] [dns] [info] kputta-py311.dev.awsdev.chewy.com
+[caa-fingerprint] [dns] [info] krand-test.dev.awsdev.chewy.com
+[caa-fingerprint] [dns] [info] kyrios-mdm.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] kyrios-mdm.dev.chewy.com [ns-113.awsdns-14.com.,ns-1449.awsdns-53.org.,ns-1723.awsdns-23.co.uk.,ns-716.awsdns-25.net.]
+[caa-fingerprint] [dns] [info] kyrios-mdm.prd.chewy.com
+[caa-fingerprint] [dns] [info] lgcy.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] lgcy.sbx.chewy.com [ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.,ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.]
+[caa-fingerprint] [dns] [info] lgcy.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] lgcy.dev.chewy.com [ns-905.awsdns-49.net.,ns-359.awsdns-44.com.,ns-1887.awsdns-43.co.uk.,ns-1176.awsdns-19.org.]
+[nameserver-fingerprint] [dns] [info] lgcy.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-629.awsdns-14.net.,ns-299.awsdns-37.com.,ns-1440.awsdns-52.org.]
+[caa-fingerprint] [dns] [info] legacy-be.chewy.com
+[nameserver-fingerprint] [dns] [info] lgcy.prd.chewy.com [ns-1275.awsdns-31.org.,ns-1585.awsdns-06.co.uk.,ns-179.awsdns-22.com.,ns-686.awsdns-21.net.]
+[nameserver-fingerprint] [dns] [info] lgcy.qat.chewy.com [ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-84.awsdns-10.com.]
+[caa-fingerprint] [dns] [info] lgcy.qa.chewy.com
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] meow.chewy.com [d3ky3l06ej3gv5.cloudfront.net.]
+[caa-fingerprint] [dns] [info] lgcy.stg.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] media-be.chewy.com [media-be.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] lgcy.sbx.chewy.com
+[caa-fingerprint] [dns] [info] lgcy.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] management.dev.awsdev.chewy.com [ns-1335.awsdns-38.org.,ns-1936.awsdns-50.co.uk.,ns-225.awsdns-28.com.,ns-929.awsdns-52.net.]
+[nameserver-fingerprint] [dns] [info] management.dev.aws.chewy.com [ns-1206.awsdns-22.org.,ns-1719.awsdns-22.co.uk.,ns-949.awsdns-54.net.,ns-119.awsdns-14.com.]
+[servfail-refused-hosts] [dns] [info] mercury-stg.chewy.com
+[servfail-refused-hosts] [dns] [info] mercury.chewy.com
+[servfail-refused-hosts] [dns] [info] mercury-qa.chewy.com
+[servfail-refused-hosts] [dns] [info] merc-stg.chewy.com
+[servfail-refused-hosts] [dns] [info] mercury-dev.chewy.com
+[nameserver-fingerprint] [dns] [info] management.prd.aws.chewy.com [ns-1125.awsdns-12.org.,ns-2003.awsdns-58.co.uk.,ns-820.awsdns-38.net.,ns-103.awsdns-12.com.]
+[nameserver-fingerprint] [dns] [info] meow.chewy.com [ns-961.awsdns-56.net.,ns-1109.awsdns-10.org.,ns-92.awsdns-11.com.,ns-1607.awsdns-08.co.uk.]
+[caa-fingerprint] [dns] [info] media-be.chewy.com
+[caa-fingerprint] [dns] [info] management.dev.awsdev.chewy.com
+[caa-fingerprint] [dns] [info] management.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] management.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] mail.chewy.com
+[servfail-refused-hosts] [dns] [info] mkt-mlops-data-scientists.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] mkt-team-shared.dev.chewy.com
+[caa-fingerprint] [dns] [info] misc.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] misc.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-1440.awsdns-52.org.,ns-629.awsdns-14.net.]
+[nameserver-fingerprint] [dns] [info] misc.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-151.awsdns-18.com.,ns-1100.awsdns-09.org.,ns-734.awsdns-27.net.]
+[caa-fingerprint] [dns] [info] misc.dev.chewy.com
+[caa-fingerprint] [dns] [info] misc.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] misc.prd.chewy.com [ns-237.awsdns-29.com.,ns-912.awsdns-50.net.,ns-1419.awsdns-49.org.,ns-2015.awsdns-59.co.uk.]
+[nameserver-fingerprint] [dns] [info] misc.qat.chewy.com [ns-834.awsdns-40.net.,ns-84.awsdns-10.com.,ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.]
+[caa-fingerprint] [dns] [info] misc.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] misc.dev.chewy.com [ns-1176.awsdns-19.org.,ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.]
+[caa-fingerprint] [dns] [info] meow.chewy.com
+[caa-fingerprint] [dns] [info] mesh.plat.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] mkt-team-workload.qat.chewy.com
+[servfail-refused-hosts] [dns] [info] mkt-team.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] mkt-team.stg.chewy.com
+[caa-fingerprint] [dns] [info] misc.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] mkt-team-workload.dev.chewy.com [ns-117.awsdns-14.com.,ns-1428.awsdns-50.org.,ns-669.awsdns-19.net.,ns-1659.awsdns-15.co.uk.]
+[nameserver-fingerprint] [dns] [info] mkt-team-workload.stg.chewy.com [ns-1375.awsdns-43.org.,ns-1615.awsdns-09.co.uk.,ns-451.awsdns-56.com.,ns-852.awsdns-42.net.]
+[nameserver-fingerprint] [dns] [info] mkt-team-workload.prd.chewy.com [ns-78.awsdns-09.com.,ns-862.awsdns-43.net.,ns-1480.awsdns-57.org.,ns-1867.awsdns-41.co.uk.]
+[caa-fingerprint] [dns] [info] mkt-team-workload.dev.chewy.com
+[caa-fingerprint] [dns] [info] mkt-team-workload-dev.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] mmt.chewy.com
+[caa-fingerprint] [dns] [info] mkt-team-workload.prd.chewy.com
+[caa-fingerprint] [dns] [info] mkt-team-workload.stg.chewy.com
+[caa-fingerprint] [dns] [info] mobi.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] mobi.dev.chewy.com [ns-1176.awsdns-19.org.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.,ns-1887.awsdns-43.co.uk.]
+[nameserver-fingerprint] [dns] [info] mobi.sbx.chewy.com [ns-151.awsdns-18.com.,ns-1100.awsdns-09.org.,ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] nms.chewy.com [nms.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] mobi.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] mobi.prd.chewy.com [ns-1049.awsdns-03.org.,ns-580.awsdns-08.net.,ns-202.awsdns-25.com.,ns-1784.awsdns-31.co.uk.]
+[nameserver-fingerprint] [dns] [info] mobi.qat.chewy.com [ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-84.awsdns-10.com.]
+[caa-fingerprint] [dns] [info] mkt-team-workload.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] nvsm.prd.chewy.com
+[caa-fingerprint] [dns] [info] mobi.stg.chewy.com
+[caa-fingerprint] [dns] [info] msahari-test.dev.awsdev.chewy.com
+[nameserver-fingerprint] [dns] [info] nvsm.prd.chewy.com [ns-663.awsdns-18.net.,ns-1452.awsdns-53.org.,ns-183.awsdns-22.com.,ns-1743.awsdns-25.co.uk.]
+[caa-fingerprint] [dns] [info] mtwtf5tm.paws.chewy.com
+[caa-fingerprint] [dns] [info] mobi.qat.chewy.com
+[caa-fingerprint] [dns] [info] nvsm.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] nvsm.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.]
+[caa-fingerprint] [dns] [info] moe.chewy-studios.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] nvsm.dev.chewy.com [ns-1176.awsdns-19.org.,ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.]
+[nameserver-fingerprint] [dns] [info] msahari-test.dev.awsdev.chewy.com [ns-708.awsdns-24.net.,ns-1448.awsdns-53.org.,ns-1779.awsdns-30.co.uk.,ns-178.awsdns-22.com.]
+[caa-fingerprint] [dns] [info] nms.chewy.com
+[nameserver-fingerprint] [dns] [info] mobi.stg.chewy.com [ns-1440.awsdns-52.org.,ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-629.awsdns-14.net.]
+[nameserver-fingerprint] [dns] [info] nvsm.qat.chewy.com [ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.,ns-834.awsdns-40.net.,ns-84.awsdns-10.com.]
+[caa-fingerprint] [dns] [info] mobi.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] nvsm.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.,ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.]
+[caa-fingerprint] [dns] [info] npc-preview-use2.csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] mobi.qa.chewy.com
+[caa-fingerprint] [dns] [info] o1.email-sg.chewy.com
+[caa-fingerprint] [dns] [info] nvsm.stg.chewy.com
+[caa-fingerprint] [dns] [info] nvsm.qat.chewy.com
+[caa-fingerprint] [dns] [info] nvx9jh2c.paws.chewy.com
+[caa-fingerprint] [dns] [info] nvsm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] o2.email-sg.chewy.com
+[caa-fingerprint] [dns] [info] o1.ptr2134.chewy.com
+[caa-fingerprint] [dns] [info] o1.isv.chewy.com
+[servfail-refused-hosts] [dns] [info] oauth.vue.pro.chewy.com
+[caa-fingerprint] [dns] [info] o3.email-sg.chewy.com
+[caa-fingerprint] [dns] [info] o2uicakx.paws.chewy.com
+[caa-fingerprint] [dns] [info] o2.ptr778.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] offsite.chewy.com [offsite.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] o2.isv.chewy.com
+[caa-fingerprint] [dns] [info] o5.email-sg.chewy.com
+[caa-fingerprint] [dns] [info] o4.email-sg.chewy.com
+[caa-fingerprint] [dns] [info] opta.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] opta.qat.chewy.com [ns-1203.awsdns-22.org.,ns-834.awsdns-40.net.,ns-84.awsdns-10.com.,ns-1566.awsdns-03.co.uk.]
+[nameserver-fingerprint] [dns] [info] opta.sbx.chewy.com [ns-734.awsdns-27.net.,ns-1100.awsdns-09.org.,ns-1940.awsdns-50.co.uk.,ns-151.awsdns-18.com.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] petscriptions.chewy.com [petscriptions.chewy.com.edgekey.net.]
+[nameserver-fingerprint] [dns] [info] opta.dev.chewy.com [ns-905.awsdns-49.net.,ns-1176.awsdns-19.org.,ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.]
+[caa-fingerprint] [dns] [info] openvidu-pro-test-2e53314e.hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] o644.ptr3996.jobalerts.chewy.com
+[caa-fingerprint] [dns] [info] o6.isv.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] petcentral.chewy.com [petcentral.chewy.com.edgekey.net.]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] pawsibilities.chewy.com [dzg4zhu1k3h56.cloudfront.net.]
+[caa-fingerprint] [dns] [info] o5.isv.chewy.com
+[nameserver-fingerprint] [dns] [info] opta.prd.chewy.com [ns-1123.awsdns-12.org.,ns-159.awsdns-19.com.,ns-2013.awsdns-59.co.uk.,ns-776.awsdns-33.net.]
+[nameserver-fingerprint] [dns] [info] opta.stg.chewy.com [ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.]
+[caa-fingerprint] [dns] [info] o645.ptr8306.careeralerts.chewy.com
+[caa-fingerprint] [dns] [info] opta.prd.chewy.com
+[caa-fingerprint] [dns] [info] offsite.chewy.com
+[caa-fingerprint] [dns] [info] opta.qa.chewy.com
+[servfail-refused-hosts] [dns] [info] pims-dev.chewy.com
+[servfail-refused-hosts] [dns] [info] pims.chewy.com
+[caa-fingerprint] [dns] [info] omp.woof.chewy.com
+[caa-fingerprint] [dns] [info] opta.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] osvc-data-store.dev.aws.chewy.com [ns-1059.awsdns-04.org.,ns-583.awsdns-08.net.,ns-398.awsdns-49.com.,ns-1995.awsdns-57.co.uk.]
+[nameserver-fingerprint] [dns] [info] osvc-data-store.prd.aws.chewy.com [ns-165.awsdns-20.com.,ns-1532.awsdns-63.org.,ns-554.awsdns-05.net.,ns-1696.awsdns-20.co.uk.]
+[caa-fingerprint] [dns] [info] osvc-data-store.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] opta.stg.chewy.com
+[caa-fingerprint] [dns] [info] osvc-data-store.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] opta.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] pawsibilities.chewy.com [ns-957.awsdns-55.net.,ns-137.awsdns-17.com.,ns-1100.awsdns-09.org.,ns-1639.awsdns-12.co.uk.]
+[nameserver-fingerprint] [dns] [info] osvc-data-store.stg.aws.chewy.com [ns-922.awsdns-51.net.,ns-1333.awsdns-38.org.,ns-2023.awsdns-60.co.uk.,ns-321.awsdns-40.com.]
+[caa-fingerprint] [dns] [info] osvc-data-store.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] petcentral.chewy.com
+[nameserver-fingerprint] [dns] [info] plat.dev.chewy.com [ns-1887.awsdns-43.co.uk.,ns-359.awsdns-44.com.,ns-905.awsdns-49.net.,ns-1176.awsdns-19.org.]
+[caa-fingerprint] [dns] [info] pawsibilities.chewy.com
+[nameserver-fingerprint] [dns] [info] plat.stg.chewy.com [ns-299.awsdns-37.com.,ns-1815.awsdns-34.co.uk.,ns-629.awsdns-14.net.,ns-1440.awsdns-52.org.]
+[caa-fingerprint] [dns] [info] plat.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] plat.prd.chewy.com [ns-1727.awsdns-23.co.uk.,ns-361.awsdns-45.com.,ns-836.awsdns-40.net.,ns-1085.awsdns-07.org.]
+[nameserver-fingerprint] [dns] [info] plat.qat.chewy.com [ns-84.awsdns-10.com.,ns-834.awsdns-40.net.,ns-1566.awsdns-03.co.uk.,ns-1203.awsdns-22.org.]
+[caa-fingerprint] [dns] [info] plat.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] plat.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.,ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.]
+[dns-saas-service-detection:github] [dns] [info] practicehub-ui.hlth.dev.chewy.com [chewy-inc.github.io.]
+[caa-fingerprint] [dns] [info] petscriptions.chewy.com
+[caa-fingerprint] [dns] [info] plat.qa.chewy.com
+[servfail-refused-hosts] [dns] [info] prod.lotus.chewy.com
+[servfail-refused-hosts] [dns] [info] pref-sandbox.chewy.com
+[servfail-refused-hosts] [dns] [info] qa11-prescriptions.chewy.com
+[servfail-refused-hosts] [dns] [info] qa10-prescriptions.chewy.com
+[caa-fingerprint] [dns] [info] plat.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] platform-engineering.prd.chewy.com [ns-301.awsdns-37.com.,ns-857.awsdns-43.net.,ns-1654.awsdns-14.co.uk.,ns-1051.awsdns-03.org.]
+[nameserver-fingerprint] [dns] [info] platform-engineering.stg.chewy.com [ns-1989.awsdns-56.co.uk.,ns-525.awsdns-01.net.,ns-281.awsdns-35.com.,ns-1228.awsdns-25.org.]
+[caa-fingerprint] [dns] [info] platform-engineering.dev.chewy.com
+[caa-fingerprint] [dns] [info] plat.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] platform-engineering.dev.chewy.com [ns-1658.awsdns-15.co.uk.,ns-1327.awsdns-37.org.,ns-684.awsdns-21.net.,ns-202.awsdns-25.com.]
+[caa-fingerprint] [dns] [info] plat.sbx.chewy.com
+[caa-fingerprint] [dns] [info] practicehub-ui.hlth.dev.chewy.com [letsencrypt.org,sectigo.com,digicert.com]
+[nameserver-fingerprint] [dns] [info] qa-prescriptions.chewy.com [ns-1578.awsdns-05.co.uk.,ns-77.awsdns-09.com.,ns-1227.awsdns-25.org.,ns-829.awsdns-39.net.]
+[caa-fingerprint] [dns] [info] portal.chewy-studios.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] prd.chewy.com [ns-246.awsdns-30.com.,ns-632.awsdns-15.net.,ns-1264.awsdns-30.org.,ns-1587.awsdns-06.co.uk.]
+[caa-fingerprint] [dns] [info] prd.chewy.com
+[caa-fingerprint] [dns] [info] prescriptions.chewy.com
+[nameserver-fingerprint] [dns] [info] prescriptions.chewy.com [ns-1471.awsdns-55.org.,ns-1650.awsdns-14.co.uk.,ns-649.awsdns-17.net.,ns-85.awsdns-10.com.]
+[caa-fingerprint] [dns] [info] platform-engineering.stg.chewy.com
+[caa-fingerprint] [dns] [info] platform-engineering.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] qat.chewy.com [ns-337.awsdns-42.com.,ns-1105.awsdns-10.org.,ns-634.awsdns-15.net.,ns-2031.awsdns-61.co.uk.]
+[nameserver-fingerprint] [dns] [info] qa4-prescriptions.chewy.com [ns-660.awsdns-18.net.,ns-365.awsdns-45.com.,ns-1300.awsdns-34.org.,ns-1770.awsdns-29.co.uk.]
+[nameserver-fingerprint] [dns] [info] qa7-prescriptions.chewy.com [ns-332.awsdns-41.com.,ns-1146.awsdns-15.org.,ns-527.awsdns-01.net.,ns-1960.awsdns-53.co.uk.]
+[caa-fingerprint] [dns] [info] qa-prescriptions.chewy.com
+[caa-fingerprint] [dns] [info] qa.chewy.com
+[servfail-refused-hosts] [dns] [info] registry.laborplanning-qa.chewy.com
+[caa-fingerprint] [dns] [info] qat.chewy.com
+[caa-fingerprint] [dns] [info] qa7-prescriptions.chewy.com
+[caa-fingerprint] [dns] [info] qa4-prescriptions.chewy.com
+[servfail-refused-hosts] [dns] [info] rxm-service.chewy.com
+[servfail-refused-hosts] [dns] [info] rs-test.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] rhapsody.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] rhapsody.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] qclxdvqz.paws.chewy.com
+[caa-fingerprint] [dns] [info] remote.chewy.com
+[caa-fingerprint] [dns] [info] qgqbnwtb.paws.chewy.com
+[nameserver-fingerprint] [dns] [info] robotics.dev.aws.chewy.com [ns-1276.awsdns-31.org.,ns-2025.awsdns-61.co.uk.,ns-384.awsdns-48.com.,ns-918.awsdns-50.net.]
+[caa-fingerprint] [dns] [info] recaptcha.corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] recaptcha.corp.stg.chewy.com
+[servfail-refused-hosts] [dns] [info] sandbox.europa-qa.chewy.com
+[servfail-refused-hosts] [dns] [info] sample.trx.chewy.com
+[caa-fingerprint] [dns] [info] robotics.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] robotics.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] sailpoint-chewy-iam.prd.chewy.com [ns-352.awsdns-44.com.,ns-1543.awsdns-00.co.uk.,ns-1528.awsdns-63.org.,ns-726.awsdns-26.net.]
+[nameserver-fingerprint] [dns] [info] rxs.chewy.com [ns-418.awsdns-52.com.,ns-1399.awsdns-46.org.,ns-940.awsdns-53.net.,ns-1694.awsdns-19.co.uk.]
+[caa-fingerprint] [dns] [info] sailpoint-chewy-iam.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] robotics.stg.aws.chewy.com [ns-146.awsdns-18.com.,ns-1533.awsdns-63.org.,ns-1784.awsdns-31.co.uk.,ns-660.awsdns-18.net.]
+[nameserver-fingerprint] [dns] [info] robotics.prd.aws.chewy.com [ns-1079.awsdns-06.org.,ns-1874.awsdns-42.co.uk.,ns-443.awsdns-55.com.,ns-905.awsdns-49.net.]
+[caa-fingerprint] [dns] [info] rxs.chewy.com
+[nameserver-fingerprint] [dns] [info] sailpoint-chewy-iam.dev.chewy.com [ns-1230.awsdns-25.org.,ns-174.awsdns-21.com.,ns-1830.awsdns-36.co.uk.,ns-979.awsdns-58.net.]
+[caa-fingerprint] [dns] [info] robotics.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] rtdm1jvr.ca.chewy.com
+[caa-fingerprint] [dns] [info] safety.chewy.com
+[nameserver-fingerprint] [dns] [info] scff.prd.chewy.com [ns-226.awsdns-28.com.,ns-603.awsdns-11.net.,ns-1665.awsdns-16.co.uk.,ns-1391.awsdns-45.org.]
+[caa-fingerprint] [dns] [info] sbx.chewy.com
+[caa-fingerprint] [dns] [info] sailpoint-chewy-iam.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] scff.qat.chewy.com [ns-834.awsdns-40.net.,ns-84.awsdns-10.com.,ns-1203.awsdns-22.org.,ns-1566.awsdns-03.co.uk.]
+[servfail-refused-hosts] [dns] [info] sandbox.edi-qa.chewy.com
+[caa-fingerprint] [dns] [info] scff.dev.chewy.com
+[caa-fingerprint] [dns] [info] scff.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] scff.sbx.chewy.com [ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.,ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.]
+[nameserver-fingerprint] [dns] [info] scff.stg.chewy.com [ns-1440.awsdns-52.org.,ns-1815.awsdns-34.co.uk.,ns-299.awsdns-37.com.,ns-629.awsdns-14.net.]
+[caa-fingerprint] [dns] [info] scff.qa.chewy.com
+[caa-fingerprint] [dns] [info] search-metadata.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] scff.dev.chewy.com [ns-1887.awsdns-43.co.uk.,ns-1176.awsdns-19.org.,ns-905.awsdns-49.net.,ns-359.awsdns-44.com.]
+[nameserver-fingerprint] [dns] [info] search-metadata.prd.chewy.com [ns-1356.awsdns-41.org.,ns-2007.awsdns-58.co.uk.,ns-717.awsdns-25.net.,ns-487.awsdns-60.com.]
+[nameserver-fingerprint] [dns] [info] sbx.chewy.com [ns-338.awsdns-42.com.,ns-1592.awsdns-07.co.uk.,ns-962.awsdns-56.net.,ns-1355.awsdns-41.org.]
+[caa-fingerprint] [dns] [info] scff.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] search-metadata.qat.chewy.com [ns-1493.awsdns-58.org.,ns-1984.awsdns-56.co.uk.,ns-425.awsdns-53.com.,ns-619.awsdns-13.net.]
+[caa-fingerprint] [dns] [info] schedules.chewy.com
+[caa-fingerprint] [dns] [info] scff.sbx.chewy.com
+[caa-fingerprint] [dns] [info] search-metadata.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] search-suggestions.dev.chewy.com [ns-1312.awsdns-36.org.,ns-1596.awsdns-07.co.uk.,ns-414.awsdns-51.com.,ns-933.awsdns-52.net.]
+[caa-fingerprint] [dns] [info] scff.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] search-metadata.stg.chewy.com [ns-1190.awsdns-20.org.,ns-1957.awsdns-52.co.uk.,ns-344.awsdns-43.com.,ns-976.awsdns-58.net.]
+[nameserver-fingerprint] [dns] [info] search-metadata.dev.chewy.com [ns-1010.awsdns-62.net.,ns-1105.awsdns-10.org.,ns-1903.awsdns-45.co.uk.,ns-341.awsdns-42.com.]
+[nameserver-fingerprint] [dns] [info] shared-services-sc-fp.prd.chewy.com [ns-753.awsdns-30.net.,ns-1050.awsdns-03.org.,ns-1917.awsdns-47.co.uk.,ns-159.awsdns-19.com.]
+[caa-fingerprint] [dns] [info] search-suggestions.prd.chewy.com
+[caa-fingerprint] [dns] [info] search-metadata.qat.chewy.com
+[caa-fingerprint] [dns] [info] search-metadata.stg.chewy.com
+[caa-fingerprint] [dns] [info] search-suggestions.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] shared-services-cac1.dev.chewy.com [ns-1105.awsdns-10.org.,ns-1789.awsdns-31.co.uk.,ns-271.awsdns-33.com.,ns-968.awsdns-57.net.]
+[dns-saas-service-detection] [dns] [info] smart.chewy.com [whs.sendergen.com.]
+[nameserver-fingerprint] [dns] [info] search-suggestions.stg.chewy.com [ns-1321.awsdns-37.org.,ns-1877.awsdns-42.co.uk.,ns-539.awsdns-03.net.,ns-62.awsdns-07.com.]
+[caa-fingerprint] [dns] [info] sentinel-security.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] search-suggestions.prd.chewy.com [ns-1956.awsdns-52.co.uk.,ns-946.awsdns-54.net.,ns-110.awsdns-13.com.,ns-1453.awsdns-53.org.]
+[nameserver-fingerprint] [dns] [info] segmented-integration.dev.aws.chewy.com [ns-177.awsdns-22.com.,ns-1890.awsdns-44.co.uk.,ns-642.awsdns-16.net.,ns-1116.awsdns-11.org.]
+[caa-fingerprint] [dns] [info] segmented-integration.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] search-suggestions.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] sentinel-security.prd.chewy.com [ns-1315.awsdns-36.org.,ns-1926.awsdns-48.co.uk.,ns-360.awsdns-45.com.,ns-804.awsdns-36.net.]
+[caa-fingerprint] [dns] [info] segapi.vulcan.chewy.com
+[caa-fingerprint] [dns] [info] secure.chewy.com
+[caa-fingerprint] [dns] [info] sfsnma-haproxy.use1.lgcy.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] shss.chewy.com [ns-209.awsdns-26.com.,ns-890.awsdns-47.net.,ns-1449.awsdns-53.org.,ns-1995.awsdns-57.co.uk.]
+[nameserver-fingerprint] [dns] [info] shd.chewy.com [ns-1180.awsdns-19.org.,ns-302.awsdns-37.com.,ns-843.awsdns-41.net.,ns-1770.awsdns-29.co.uk.]
+[caa-fingerprint] [dns] [info] sfsnma-haproxy.use2.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] sharedservice.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] sharedservice.dev.aws.chewy.com [ns-1053.awsdns-03.org.,ns-147.awsdns-18.com.,ns-2002.awsdns-58.co.uk.,ns-847.awsdns-41.net.]
+[caa-fingerprint] [dns] [info] shared-services-cac1.dev.chewy.com
+[caa-fingerprint] [dns] [info] shd.chewy.com
+[caa-fingerprint] [dns] [info] shared-services-sc-fp.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] staffiere-test2.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] srm.chewy.com
+[txt-fingerprint] [dns] [info] stark-appointment-service-dev.hlth.dev.chewy.com ["heritage=external-dns,external-dns/owner=dev-use1-stark-k8s-eks-cluster,external-dns/resource=ingress/dev/stark-appointment-service-com-ingress"]
+[caa-fingerprint] [dns] [info] smart.chewy.com [digicert.com,letsencrypt.org]
+[nameserver-fingerprint] [dns] [info] sonarqube.chewy.com [ns-309.awsdns-38.com.,ns-1362.awsdns-42.org.,ns-926.awsdns-51.net.,ns-2044.awsdns-63.co.uk.]
+[caa-fingerprint] [dns] [info] shss.chewy.com
+[caa-fingerprint] [dns] [info] sonarqube.chewy.com
+[txt-fingerprint] [dns] [info] stark-appointment-service-qat.hlth.qat.chewy.com ["heritage=external-dns,external-dns/owner=qat-use1-stark-k8s-eks-cluster,external-dns/resource=ingress/qat/stark-appointment-service-com-ingress"]
+[caa-fingerprint] [dns] [info] splunk.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] splunk.prd.chewy.com [ns-436.awsdns-54.com.,ns-857.awsdns-43.net.,ns-1387.awsdns-45.org.,ns-1617.awsdns-10.co.uk.]
+[txt-fingerprint] [dns] [info] stark-chat-service-qat.hlth.qat.chewy.com ["heritage=external-dns,external-dns/owner=qat-use1-stark-k8s-eks-cluster,external-dns/resource=ingress/qat/stark-chat-service-com-ingress"]
+[txt-fingerprint] [dns] [info] stark-provider-view-api-qat.hlth.qat.chewy.com ["heritage=external-dns,external-dns/owner=qat-use1-stark-k8s-eks-cluster,external-dns/resource=ingress/qat/stark-provider-view-api-com-ingress"]
+[caa-fingerprint] [dns] [info] splunk.stg.chewy.com
+[txt-fingerprint] [dns] [info] stark-provider-view-ui-dev.hlth.dev.chewy.com ["heritage=external-dns,external-dns/owner=dev-use1-stark-k8s-eks-cluster,external-dns/resource=ingress/dev/stark-provider-view-ui-com-ingress"]
+[caa-fingerprint] [dns] [info] splunk.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] srm.chewy.com [ns-1980.awsdns-55.co.uk.,ns-497.awsdns-62.com.,ns-1476.awsdns-56.org.,ns-560.awsdns-06.net.]
+[nameserver-fingerprint] [dns] [info] staffiere.plat.sbx.chewy.com [ns-1157.awsdns-16.org.,ns-1966.awsdns-53.co.uk.,ns-259.awsdns-32.com.,ns-595.awsdns-10.net.]
+[nameserver-fingerprint] [dns] [info] splunk.stg.chewy.com [ns-1529.awsdns-63.org.,ns-1639.awsdns-12.co.uk.,ns-379.awsdns-47.com.,ns-794.awsdns-35.net.]
+[caa-fingerprint] [dns] [info] srm.chewy.com
+[caa-fingerprint] [dns] [info] splunk.ecom.chewy.com
+[caa-fingerprint] [dns] [info] staffiere-apigw-test.plat.sbx.chewy.com
+[servfail-refused-hosts] [dns] [info] tableau-v3.vendors-demo.chewy.com
+[caa-fingerprint] [dns] [info] stark-appointment-service-dev.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] stark-provider-view-api-qat.hlth.qat.chewy.com
+[nameserver-fingerprint] [dns] [info] splunk.dev.chewy.com [ns-1274.awsdns-31.org.,ns-1697.awsdns-20.co.uk.,ns-667.awsdns-19.net.,ns-311.awsdns-38.com.]
+[caa-fingerprint] [dns] [info] stark-chat-service-qat.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] stark-appointment-service-qat.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] stark-provider-view-ui-dev.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] staffiere.plat.sbx.chewy.com
+[nameserver-fingerprint] [dns] [info] stg.chewy.com [ns-1187.awsdns-20.org.,ns-1825.awsdns-36.co.uk.,ns-427.awsdns-53.com.,ns-764.awsdns-31.net.]
+[nameserver-fingerprint] [dns] [info] stg-prescriptions.chewy.com [ns-1314.awsdns-36.org.,ns-1875.awsdns-42.co.uk.,ns-515.awsdns-00.net.,ns-91.awsdns-11.com.]
+[caa-fingerprint] [dns] [info] stark-chat-service-prd.hlth.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] staging.europa-stg.chewy.com
+[servfail-refused-hosts] [dns] [info] staging.edi-stg.chewy.com
+[servfail-refused-hosts] [dns] [info] tableau.vendors-demo.chewy.com
+[caa-fingerprint] [dns] [info] stg-prescriptions.chewy.com
+[caa-fingerprint] [dns] [info] t9cowulr.paws.chewy.com
+[caa-fingerprint] [dns] [info] stg.chewy.com
+[nameserver-fingerprint] [dns] [info] tableau-vds-dm.prd.aws.chewy.com [ns-1604.awsdns-08.co.uk.,ns-354.awsdns-44.com.,ns-651.awsdns-17.net.,ns-1154.awsdns-16.org.]
+[caa-fingerprint] [dns] [info] tableau-vds-dm.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] tableau-vds-dm.dev.chewy.com [ns-1732.awsdns-24.co.uk.,ns-180.awsdns-22.com.,ns-587.awsdns-09.net.,ns-1520.awsdns-62.org.]
+[caa-fingerprint] [dns] [info] support01.chewy.com
+[servfail-refused-hosts] [dns] [info] thebestapp-chewy-uta-woof.prd.chewy.com
+[caa-fingerprint] [dns] [info] taxui.chewy.com
+[caa-fingerprint] [dns] [info] tableau-vds-dm.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] tfe.shd.chewy.com
+[nameserver-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.stg.chewy.com [ns-10.awsdns-01.com.,ns-593.awsdns-10.net.,ns-2023.awsdns-60.co.uk.,ns-1465.awsdns-55.org.]
+[caa-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.dev.chewy.com
+[caa-fingerprint] [dns] [info] tfesrv.shd.chewy.com
+[nameserver-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.dev.chewy.com [ns-1951.awsdns-51.co.uk.,ns-694.awsdns-22.net.,ns-1485.awsdns-57.org.,ns-325.awsdns-40.com.]
+[nameserver-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.qat.chewy.com [ns-1381.awsdns-44.org.,ns-1608.awsdns-09.co.uk.,ns-277.awsdns-34.com.,ns-1013.awsdns-62.net.]
+[caa-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.qat.chewy.com
+[caa-fingerprint] [dns] [info] tfesrv.shss.chewy.com
+[servfail-refused-hosts] [dns] [info] ui.srm.chewy.com
+[servfail-refused-hosts] [dns] [info] trx.chewy.com
+[caa-fingerprint] [dns] [info] transfer-family.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] tp-sailpoint-chewy-iam.dev.aws.chewy.com [ns-997.awsdns-60.net.,ns-2021.awsdns-60.co.uk.,ns-64.awsdns-08.com.,ns-1513.awsdns-61.org.]
+[caa-fingerprint] [dns] [info] tp-sailpoint-chewy-iam.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] uc-systems.dev.aws.chewy.com [ns-1312.awsdns-36.org.,ns-854.awsdns-42.net.,ns-238.awsdns-29.com.,ns-1851.awsdns-39.co.uk.]
+[caa-fingerprint] [dns] [info] transfer-family.dev.chewy.com
+[caa-fingerprint] [dns] [info] uc-systems.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] thebestapp-chewy-uta-woof.stg.chewy.com
+[caa-fingerprint] [dns] [info] tp-sailpoint-chewy-iam.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] tracking.chewy.com
+[nameserver-fingerprint] [dns] [info] transfer-family.prd.chewy.com [ns-1693.awsdns-19.co.uk.,ns-173.awsdns-21.com.,ns-943.awsdns-53.net.,ns-1132.awsdns-13.org.]
+[nameserver-fingerprint] [dns] [info] tp-sailpoint-chewy-iam.prd.aws.chewy.com [ns-1389.awsdns-45.org.,ns-152.awsdns-19.com.,ns-1704.awsdns-21.co.uk.,ns-718.awsdns-25.net.]
+[nameserver-fingerprint] [dns] [info] transfer-family.dev.chewy.com [ns-1142.awsdns-14.org.,ns-1827.awsdns-36.co.uk.,ns-295.awsdns-36.com.,ns-943.awsdns-53.net.]
+[caa-fingerprint] [dns] [info] thebestapp-uta-woof.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] university.chewy.com
+[dns-saas-service-detection] [dns] [info] tracking.chewy.com [mrchewy-elb.go2cloud.org.]
+[nameserver-fingerprint] [dns] [info] thebestapp-uta-woof.prd.aws.chewy.com [ns-937.awsdns-53.net.,ns-1512.awsdns-61.org.,ns-1583.awsdns-05.co.uk.,ns-197.awsdns-24.com.]
+[caa-fingerprint] [dns] [info] tfe.shss.chewy.com
+[caa-fingerprint] [dns] [info] use1.corp.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.corp.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.corp.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] ui.srm.chewy.com
+[caa-fingerprint] [dns] [info] use1.csbb.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.corp.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.csbb.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.csbb.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.csbb.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.hlth.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.demm.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.lgcy.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.demm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.hlth.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.demm.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.misc.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.misc.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.lgcy.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.misc.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.misc.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.lgcy.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.lgcy.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.mobi.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.mobi.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.misc.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.mobi.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.mobi.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.mobi.qat.chewy.com
+[dns-saas-service-detection] [dns] [info] use1.scff.sbx.chewy.com [scff.sbx.chewy.com.]
+[caa-fingerprint] [dns] [info] use1.opta.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.nvsm.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.nvsm.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.opta.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.opta.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.opta.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.nvsm.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.nvsm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.nvsm.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] use1.scff.sbx.chewy.com [ns-1940.awsdns-50.co.uk.,ns-734.awsdns-27.net.,ns-1100.awsdns-09.org.,ns-151.awsdns-18.com.]
+[caa-fingerprint] [dns] [info] use1.scff.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.plat.qat.chewy.com
+[caa-fingerprint] [dns] [info] use1.plat.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use1.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.scff.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.scff.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.plat.stg.chewy.com
+[caa-fingerprint] [dns] [info] use1.plat.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.corp.dev.chewy.com
+[caa-fingerprint] [dns] [info] use1.scff.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] use1.scff.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.corp.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.corp.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.corp.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.demm.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.csbb.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.demm.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.csbb.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.csbb.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.csbb.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.demm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.hlth.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.lgcy.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.hlth.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.lgcy.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.lgcy.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.misc.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.lgcy.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.misc.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.misc.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.misc.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.misc.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.mobi.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.nvsm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.mobi.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.mobi.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.mobi.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.mobi.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.nvsm.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.nvsm.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.nvsm.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.nvsm.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.opta.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.opta.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.opta.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.opta.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.plat.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.plat.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.scff.dev.chewy.com
+[caa-fingerprint] [dns] [info] use2.plat.sbx.chewy.com
+[caa-fingerprint] [dns] [info] use2.plat.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.scff.prd.chewy.com
+[caa-fingerprint] [dns] [info] use2.scff.stg.chewy.com
+[caa-fingerprint] [dns] [info] use2.scff.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.corp.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.corp.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.csbb.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.corp.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.csbb.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.csbb.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.csbb.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.corp.qat.chewy.com
+[caa-fingerprint] [dns] [info] use2.scff.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.demm.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.hlth.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.demm.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.demm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.hlth.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.lgcy.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.lgcy.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.lgcy.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.nvsm.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.mobi.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.nvsm.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.nvsm.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.mobi.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.mobi.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.mobi.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.mobi.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.lgcy.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.nvsm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.plat.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.opta.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.opta.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.nvsm.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.opta.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.opta.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.plat.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw1.scff.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.plat.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw1.plat.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw1.scff.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.corp.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw1.scff.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.corp.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.csbb.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.corp.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.scff.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.csbb.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.csbb.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw1.scff.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.corp.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.hlth.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.demm.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.demm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.hlth.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.csbb.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.csbb.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.demm.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.demm.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.demm.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.corp.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.hlth.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.hlth.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.misc.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.misc.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.mobi.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.misc.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.misc.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.lgcy.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.mobi.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.misc.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.lgcy.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.lgcy.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.hlth.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.lgcy.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.lgcy.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.mobi.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.mobi.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.nvsm.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.nvsm.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.nvsm.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.mobi.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.nvsm.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.opta.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.nvsm.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.opta.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.opta.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.opta.sbx.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] vendors.chewy.com [vendors.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] usw2.scff.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.plat.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.scff.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.opta.stg.chewy.com
+[caa-fingerprint] [dns] [info] usw2.scff.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.scff.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.plat.dev.chewy.com
+[caa-fingerprint] [dns] [info] usw2.plat.sbx.chewy.com
+[caa-fingerprint] [dns] [info] usw2.plat.qat.chewy.com
+[caa-fingerprint] [dns] [info] usw2.plat.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] vendors-demo.chewy.com
+[servfail-refused-hosts] [dns] [info] venus-qa.chewy.com
+[servfail-refused-hosts] [dns] [info] venus.chewy.com
+[servfail-refused-hosts] [dns] [info] venus-stg.chewy.com
+[caa-fingerprint] [dns] [info] vdslite.chewy.com
+[nameserver-fingerprint] [dns] [info] vertica-dev.prd.chewy.com [ns-1818.awsdns-35.co.uk.,ns-422.awsdns-52.com.,ns-933.awsdns-52.net.,ns-1524.awsdns-62.org.]
+[caa-fingerprint] [dns] [info] vertica-stg.prd.chewy.com
+[spf-record-detect] [dns] [info] vetcare.chewy.com [v=spf1 include:spf.protection.outlook.com include:sendgrid.net include:spf-a.rnmk.com include:spf-b.rnmk.com ip4:138.1.48.221/32 ~all"]
+[txt-fingerprint] [dns] [info] vetcare.chewy.com ["v=spf1 include:spf.protection.outlook.com include:sendgrid.net include:spf-a.rnmk.com include:spf-b.rnmk.com ip4:138.1.48.221/32 ~all"]
+[nameserver-fingerprint] [dns] [info] vertica-stg.prd.chewy.com [ns-1122.awsdns-12.org.,ns-155.awsdns-19.com.,ns-1901.awsdns-45.co.uk.,ns-669.awsdns-19.net.]
+[caa-fingerprint] [dns] [info] vendors.chewy.com
+[mx-fingerprint] [dns] [info] vetcare.chewy.com [10 us-smtp-inbound-2.mimecast.com.,10 us-smtp-inbound-1.mimecast.com.]
+[caa-fingerprint] [dns] [info] vertica-dev.prd.chewy.com
+[caa-fingerprint] [dns] [info] usw2.scff.stg.chewy.com
+[caa-fingerprint] [dns] [info] vault.chewy.com
+[caa-fingerprint] [dns] [info] vetcare.chewy.com
+[nameserver-fingerprint] [dns] [info] vertica.prd.chewy.com [ns-1195.awsdns-21.org.,ns-782.awsdns-33.net.,ns-1697.awsdns-20.co.uk.,ns-275.awsdns-34.com.]
+[caa-fingerprint] [dns] [info] vertica.prd.chewy.com
+[caa-fingerprint] [dns] [info] vmxvan1n.paws.chewy.com
+[nameserver-fingerprint] [dns] [info] vpa.dev.chewy.com [ns-279.awsdns-34.com.,ns-2033.awsdns-62.co.uk.,ns-594.awsdns-10.net.,ns-1205.awsdns-22.org.]
+[nameserver-fingerprint] [dns] [info] vetcare.chewy.com [dns1.p03.nsone.net.,dns2.p03.nsone.net.,dns3.p03.nsone.net.,dns4.p03.nsone.net.]
+[servfail-refused-hosts] [dns] [info] weaverbird.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] vpa.prd.chewy.com [ns-771.awsdns-32.net.,ns-1084.awsdns-07.org.,ns-76.awsdns-09.com.,ns-1886.awsdns-43.co.uk.]
+[caa-fingerprint] [dns] [info] vpc-v2-test.dev.awsdev.chewy.com
+[caa-fingerprint] [dns] [info] vpa.stg.chewy.com
+[caa-fingerprint] [dns] [info] vpa.dev.chewy.com
+[caa-fingerprint] [dns] [info] vpn3.chewy.com
+[caa-fingerprint] [dns] [info] vpn01.chewy.com
+[nameserver-fingerprint] [dns] [info] vpa.stg.chewy.com [ns-181.awsdns-22.com.,ns-1250.awsdns-28.org.,ns-760.awsdns-31.net.,ns-1636.awsdns-12.co.uk.]
+[nameserver-fingerprint] [dns] [info] vpc-v2-test.dev.awsdev.chewy.com [ns-1597.awsdns-07.co.uk.,ns-1182.awsdns-19.org.,ns-801.awsdns-36.net.,ns-169.awsdns-21.com.]
+[caa-fingerprint] [dns] [info] vpp.chewy.com
+[caa-fingerprint] [dns] [info] vpn.chewy.com
+[caa-fingerprint] [dns] [info] vssxbavo.paws.chewy.com
+[caa-fingerprint] [dns] [info] vpn2.chewy.com
+[dns-saas-service-detection:akamai-cdn] [dns] [info] vpp.chewy.com [vpp.chewy.com.edgekey.net.]
+[caa-fingerprint] [dns] [info] vpa.prd.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-adtech.stg.chewy.com
+[servfail-refused-hosts] [dns] [info] wizmo-webapp-ui.wizmo.chewy.com
+[servfail-refused-hosts] [dns] [info] wizmo.chewy.com
+[caa-fingerprint] [dns] [info] whiskers.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] wms.dev.chewy.com [ns-1471.awsdns-55.org.,ns-2021.awsdns-60.co.uk.,ns-951.awsdns-54.net.,ns-152.awsdns-19.com.]
+[nameserver-fingerprint] [dns] [info] whiskers.stg.aws.chewy.com [ns-841.awsdns-41.net.,ns-1298.awsdns-34.org.,ns-1778.awsdns-30.co.uk.,ns-194.awsdns-24.com.]
+[caa-fingerprint] [dns] [info] wms.chewy.com
+[caa-fingerprint] [dns] [info] wms.dev.chewy.com
+[dmarc-detect] [dns] [info] _dmarc.vetcare.chewy.com ["v=DMARC1; p=reject; rua=mailto:21fb0c838604714@rep.dmarcanalyzer.com; ruf=mailto:21fb0c838604714@for.dmarcanalyzer.com; fo=1;"]
+[nameserver-fingerprint] [dns] [info] wms.prd.chewy.com [ns-1389.awsdns-45.org.,ns-1568.awsdns-04.co.uk.,ns-314.awsdns-39.com.,ns-928.awsdns-52.net.]
+[caa-fingerprint] [dns] [info] wms-test.chewy.com
+[mx-fingerprint] [dns] [info] woof.chewy.com [10 imh.rsys5.net.]
+[servfail-refused-hosts] [dns] [info] worker-claws.stg.chewy.com
+[spf-record-detect] [dns] [info] woof.chewy.com [v=spf1 ip4:199.7.200.0/21 ip4:12.130.135.0/24 -all"]
+[txt-fingerprint] [dns] [info] woof.chewy.com ["v=spf1 ip4:199.7.200.0/21 ip4:12.130.135.0/24 -all","google-site-verification=vOPQyG3nLndLKXDlHPiMbAEdd2wd5odwsGxvqf0FYjU","yahoo-verification-key=Yk3Pbp1r6T4Uv0Tats9Bmo8jEIM0UjYfpwmj5OsABVg="]
+[caa-fingerprint] [dns] [info] wms.stg.chewy.com
+[caa-fingerprint] [dns] [info] worker-bindeffects-fca.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] wms.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-bindeffects-fca.dev.aws.chewy.com [ns-1292.awsdns-33.org.,ns-1984.awsdns-56.co.uk.,ns-47.awsdns-05.com.,ns-690.awsdns-22.net.]
+[nameserver-fingerprint] [dns] [info] wms.stg.chewy.com [ns-1464.awsdns-55.org.,ns-1953.awsdns-52.co.uk.,ns-505.awsdns-63.com.,ns-537.awsdns-03.net.]
+[caa-fingerprint] [dns] [info] woof.chewy.com
+[nameserver-fingerprint] [dns] [info] woof.chewy.com [ns2.responsys.net.,ns1.responsys.net.]
+[caa-fingerprint] [dns] [info] worker-bindeffects-fca.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-cape.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-bindeffects-fca.stg.aws.chewy.com [ns-1413.awsdns-48.org.,ns-1696.awsdns-20.co.uk.,ns-499.awsdns-62.com.,ns-847.awsdns-41.net.]
+[caa-fingerprint] [dns] [info] worker-cape.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-cape.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-cape.prd.aws.chewy.com [ns-1526.awsdns-62.org.,ns-429.awsdns-53.com.,ns-1570.awsdns-04.co.uk.,ns-678.awsdns-20.net.]
+[caa-fingerprint] [dns] [info] worker-comm-fin-eng.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-cs-insights.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-cs-insights.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-chewy-people.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-comm-fin-eng.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-chewy-people.stg.aws.chewy.com [ns-227.awsdns-28.com.,ns-685.awsdns-21.net.,ns-1098.awsdns-09.org.,ns-1965.awsdns-53.co.uk.]
+[nameserver-fingerprint] [dns] [info] worker-comm-fin-eng.stg.aws.chewy.com [ns-113.awsdns-14.com.,ns-1345.awsdns-40.org.,ns-1615.awsdns-09.co.uk.,ns-712.awsdns-25.net.]
+[nameserver-fingerprint] [dns] [info] worker-cape.stg.aws.chewy.com [ns-1436.awsdns-51.org.,ns-1595.awsdns-07.co.uk.,ns-348.awsdns-43.com.,ns-874.awsdns-45.net.]
+[nameserver-fingerprint] [dns] [info] worker-cape.dev.aws.chewy.com [ns-2045.awsdns-63.co.uk.,ns-520.awsdns-01.net.,ns-118.awsdns-14.com.,ns-1452.awsdns-53.org.]
+[nameserver-fingerprint] [dns] [info] worker-chewy-people.dev.aws.chewy.com [ns-1461.awsdns-54.org.,ns-1822.awsdns-35.co.uk.,ns-283.awsdns-35.com.,ns-631.awsdns-14.net.]
+[caa-fingerprint] [dns] [info] worker-chewy-people.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-chewy-people.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-comm-fin-eng.dev.aws.chewy.com [ns-1301.awsdns-34.org.,ns-1670.awsdns-16.co.uk.,ns-397.awsdns-49.com.,ns-527.awsdns-01.net.]
+[nameserver-fingerprint] [dns] [info] worker-chewy-people.prd.aws.chewy.com [ns-1520.awsdns-62.org.,ns-1605.awsdns-08.co.uk.,ns-377.awsdns-47.com.,ns-771.awsdns-32.net.]
+[servfail-refused-hosts] [dns] [info] worker-ds-discovery.stg.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-ds-discovery.dev.chewy.com
+[caa-fingerprint] [dns] [info] worker-cs-insights.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-discovery.prd.aws.chewy.com [ns-1053.awsdns-03.org.,ns-372.awsdns-46.com.,ns-1999.awsdns-57.co.uk.,ns-619.awsdns-13.net.]
+[nameserver-fingerprint] [dns] [info] worker-dbs-analytics.dev.aws.chewy.com [ns-1558.awsdns-02.co.uk.,ns-277.awsdns-34.com.,ns-736.awsdns-28.net.,ns-1100.awsdns-09.org.]
+[nameserver-fingerprint] [dns] [info] worker-discovery.stg.aws.chewy.com [ns-1689.awsdns-19.co.uk.,ns-288.awsdns-36.com.,ns-1263.awsdns-29.org.,ns-693.awsdns-22.net.]
+[caa-fingerprint] [dns] [info] worker-discovery.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-dbs-analytics.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-discovery.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-csaws.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-cs-insights.stg.aws.chewy.com [ns-1107.awsdns-10.org.,ns-1593.awsdns-07.co.uk.,ns-400.awsdns-50.com.,ns-641.awsdns-16.net.]
+[nameserver-fingerprint] [dns] [info] worker-cs-insights.dev.aws.chewy.com [ns-106.awsdns-13.com.,ns-1248.awsdns-28.org.,ns-1688.awsdns-19.co.uk.,ns-889.awsdns-47.net.]
+[caa-fingerprint] [dns] [info] worker-discovery.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-cs-insights.prd.aws.chewy.com [ns-1930.awsdns-49.co.uk.,ns-378.awsdns-47.com.,ns-901.awsdns-48.net.,ns-1204.awsdns-22.org.]
+[nameserver-fingerprint] [dns] [info] worker-discovery.dev.aws.chewy.com [ns-1398.awsdns-46.org.,ns-1686.awsdns-18.co.uk.,ns-327.awsdns-40.com.,ns-516.awsdns-00.net.]
+[nameserver-fingerprint] [dns] [info] worker-csaws.dev.aws.chewy.com [ns-1131.awsdns-13.org.,ns-1560.awsdns-03.co.uk.,ns-232.awsdns-29.com.,ns-752.awsdns-30.net.]
+[dmarc-detect] [dns] [info] _dmarc.woof.chewy.com ["v=DMARC1; p=reject; pct=100"]
+[servfail-refused-hosts] [dns] [info] worker-dscvry-dtpltfrm.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-dscvry-dtpltfrm.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-dscvry-anlytics.dev.chewy.com [ns-1581.awsdns-05.co.uk.,ns-228.awsdns-28.com.,ns-522.awsdns-01.net.,ns-1386.awsdns-45.org.]
+[akamai-bot-manager-detect] [http] [info] https://www.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-example-pipelines.dev.aws.chewy.com [ns-1009.awsdns-62.net.,ns-375.awsdns-46.com.,ns-1623.awsdns-10.co.uk.,ns-1302.awsdns-34.org.]
+[caa-fingerprint] [dns] [info] worker-example-pipelines.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-dscvry-anlytics.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-dscvry-anlytics.stg.chewy.com [ns-1063.awsdns-04.org.,ns-674.awsdns-20.net.,ns-504.awsdns-63.com.,ns-1686.awsdns-18.co.uk.]
+[caa-fingerprint] [dns] [info] worker-dscvry-anlytics.dev.chewy.com
+[caa-fingerprint] [dns] [info] worker-example-pipelines.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-example-pipelines.stg.aws.chewy.com [ns-1817.awsdns-35.co.uk.,ns-380.awsdns-47.com.,ns-788.awsdns-34.net.,ns-1202.awsdns-22.org.]
+[nameserver-fingerprint] [dns] [info] worker-fc-optimization.prd.chewy.com [ns-1352.awsdns-41.org.,ns-1722.awsdns-23.co.uk.,ns-238.awsdns-29.com.,ns-687.awsdns-21.net.]
+[caa-fingerprint] [dns] [info] worker-finance-ai.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-finance-ai.dev.aws.chewy.com [ns-1790.awsdns-31.co.uk.,ns-598.awsdns-10.net.,ns-1440.awsdns-52.org.,ns-307.awsdns-38.com.]
+[caa-fingerprint] [dns] [info] worker-finance-transform.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-fc-optimization.prd.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-finance-transform.dev.aws.chewy.com [ns-1504.awsdns-60.org.,ns-1804.awsdns-33.co.uk.,ns-495.awsdns-61.com.,ns-866.awsdns-44.net.]
+[nameserver-fingerprint] [dns] [info] worker-example-pipelines.prd.aws.chewy.com [ns-14.awsdns-01.com.,ns-1743.awsdns-25.co.uk.,ns-1006.awsdns-61.net.,ns-1278.awsdns-31.org.]
+[nameserver-fingerprint] [dns] [info] worker-fc-optimization.stg.chewy.com [ns-1325.awsdns-37.org.,ns-1555.awsdns-02.co.uk.,ns-710.awsdns-24.net.,ns-75.awsdns-09.com.]
+[nameserver-fingerprint] [dns] [info] worker-fc-optimization.dev.chewy.com [ns-1143.awsdns-14.org.,ns-1738.awsdns-25.co.uk.,ns-477.awsdns-59.com.,ns-673.awsdns-20.net.]
+[caa-fingerprint] [dns] [info] worker-fraud-ds.dev.chewy.com
+[caa-fingerprint] [dns] [info] worker-fc-optimization.stg.chewy.com
+[caa-fingerprint] [dns] [info] worker-fraud-ds.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-fc-optimization.dev.chewy.com
+[caa-fingerprint] [dns] [info] worker-example-pipelines.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-fraud-ds.stg.chewy.com
+[caa-fingerprint] [dns] [info] worker-genai-sandbox.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-genai-sandbox.stg.aws.chewy.com [ns-1350.awsdns-40.org.,ns-749.awsdns-29.net.,ns-1768.awsdns-29.co.uk.,ns-224.awsdns-28.com.]
+[nameserver-fingerprint] [dns] [info] worker-fraud-ds.prd.aws.chewy.com [ns-729.awsdns-27.net.,ns-1442.awsdns-52.org.,ns-1643.awsdns-13.co.uk.,ns-27.awsdns-03.com.]
+[nameserver-fingerprint] [dns] [info] worker-fraud-ds.stg.chewy.com [ns-63.awsdns-07.com.,ns-1159.awsdns-16.org.,ns-963.awsdns-56.net.,ns-1630.awsdns-11.co.uk.]
+[nameserver-fingerprint] [dns] [info] worker-inv-opt.dev.aws.chewy.com [ns-1045.awsdns-02.org.,ns-717.awsdns-25.net.,ns-1828.awsdns-36.co.uk.,ns-111.awsdns-13.com.]
+[nameserver-fingerprint] [dns] [info] worker-fraud-ds.dev.chewy.com [ns-1277.awsdns-31.org.,ns-1987.awsdns-56.co.uk.,ns-4.awsdns-00.com.,ns-751.awsdns-29.net.]
+[caa-fingerprint] [dns] [info] worker-ia-analytics.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-inv-opt.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-ia-analytics.dev.aws.chewy.com [ns-1996.awsdns-57.co.uk.,ns-888.awsdns-47.net.,ns-1493.awsdns-58.org.,ns-168.awsdns-21.com.]
+[caa-fingerprint] [dns] [info] worker-ia-analytics-stg.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-genai-sandbox.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-genai-sandbox.dev.aws.chewy.com [ns-1976.awsdns-55.co.uk.,ns-210.awsdns-26.com.,ns-600.awsdns-11.net.,ns-1211.awsdns-23.org.]
+[nameserver-fingerprint] [dns] [info] worker-ia-analytics-stg.stg.aws.chewy.com [ns-987.awsdns-59.net.,ns-1292.awsdns-33.org.,ns-1808.awsdns-34.co.uk.,ns-82.awsdns-10.com.]
+[caa-fingerprint] [dns] [info] worker-inv-opt.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-inv-opt.stg.aws.chewy.com [ns-496.awsdns-62.com.,ns-542.awsdns-03.net.,ns-1418.awsdns-49.org.,ns-1903.awsdns-45.co.uk.]
+[servfail-refused-hosts] [dns] [info] worker-ltp.stg.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-ltp.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-mkt-mlops.dev.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-mkt-mlops.stg.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-ltp.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-merch-analytics.stg.aws.chewy.com [ns-2039.awsdns-62.co.uk.,ns-100.awsdns-12.com.,ns-1060.awsdns-04.org.,ns-924.awsdns-51.net.]
+[nameserver-fingerprint] [dns] [info] worker-merch-analytics.dev.aws.chewy.com [ns-1303.awsdns-34.org.,ns-826.awsdns-39.net.,ns-1621.awsdns-10.co.uk.,ns-47.awsdns-05.com.]
+[caa-fingerprint] [dns] [info] worker-merch-analytics.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-merch-analytics.prd.aws.chewy.com [ns-244.awsdns-30.com.,ns-860.awsdns-43.net.,ns-2026.awsdns-61.co.uk.,ns-1475.awsdns-56.org.]
+[caa-fingerprint] [dns] [info] worker-mkt-platform.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-mkt-platform.dev.aws.chewy.com [ns-1146.awsdns-15.org.,ns-1794.awsdns-32.co.uk.,ns-271.awsdns-33.com.,ns-930.awsdns-52.net.]
+[caa-fingerprint] [dns] [info] worker-merch-analytics.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-merch-analytics.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-mkt-platform.prd.aws.chewy.com [ns-1224.awsdns-25.org.,ns-942.awsdns-53.net.,ns-1721.awsdns-23.co.uk.,ns-110.awsdns-13.com.]
+[caa-fingerprint] [dns] [info] worker-pricing-analytics.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-ml-integration.dev.aws.chewy.com [ns-1696.awsdns-20.co.uk.,ns-365.awsdns-45.com.,ns-803.awsdns-36.net.,ns-1083.awsdns-07.org.]
+[nameserver-fingerprint] [dns] [info] worker-pricing-analytics.dev.aws.chewy.com [ns-1900.awsdns-45.co.uk.,ns-1364.awsdns-42.org.,ns-743.awsdns-28.net.,ns-346.awsdns-43.com.]
+[caa-fingerprint] [dns] [info] worker-ml-integration.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-mso-analytics.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-ors.prd.chewy.com [ns-1602.awsdns-08.co.uk.,ns-1278.awsdns-31.org.,ns-639.awsdns-15.net.,ns-240.awsdns-30.com.]
+[caa-fingerprint] [dns] [info] worker-mkt-platform.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-ors.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-mso-analytics.dev.aws.chewy.com [ns-1007.awsdns-61.net.,ns-1466.awsdns-55.org.,ns-1849.awsdns-39.co.uk.,ns-437.awsdns-54.com.]
+[nameserver-fingerprint] [dns] [info] worker-ors.stg.chewy.com [ns-1380.awsdns-44.org.,ns-1955.awsdns-52.co.uk.,ns-448.awsdns-56.com.,ns-680.awsdns-21.net.]
+[nameserver-fingerprint] [dns] [info] worker-mkt-platform.stg.aws.chewy.com [ns-110.awsdns-13.com.,ns-1243.awsdns-27.org.,ns-1793.awsdns-32.co.uk.,ns-993.awsdns-60.net.]
+[nameserver-fingerprint] [dns] [info] worker-ors.dev.chewy.com [ns-1109.awsdns-10.org.,ns-1613.awsdns-09.co.uk.,ns-350.awsdns-43.com.,ns-709.awsdns-24.net.]
+[caa-fingerprint] [dns] [info] worker-mkt-platform.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-ors.prd.chewy.com
+[caa-fingerprint] [dns] [info] worker-ors.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-pricing-analytics.prd.aws.chewy.com [ns-864.awsdns-44.net.,ns-100.awsdns-12.com.,ns-1359.awsdns-41.org.,ns-1768.awsdns-29.co.uk.]
+[caa-fingerprint] [dns] [info] worker-promise.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-recmd-delivery.stg.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-recmd-delivery.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-promise.stg.aws.chewy.com [ns-786.awsdns-34.net.,ns-1434.awsdns-51.org.,ns-190.awsdns-23.com.,ns-1857.awsdns-40.co.uk.]
+[caa-fingerprint] [dns] [info] worker-promise.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-promise.prd.aws.chewy.com [ns-590.awsdns-09.net.,ns-1755.awsdns-27.co.uk.,ns-1320.awsdns-37.org.,ns-400.awsdns-50.com.]
+[nameserver-fingerprint] [dns] [info] worker-pricing-analytics.stg.aws.chewy.com [ns-1292.awsdns-33.org.,ns-840.awsdns-41.net.,ns-241.awsdns-30.com.,ns-1820.awsdns-35.co.uk.]
+[caa-fingerprint] [dns] [info] worker-replen.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-replen.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-replen.dev.aws.chewy.com [ns-986.awsdns-59.net.,ns-1833.awsdns-37.co.uk.,ns-1401.awsdns-47.org.,ns-507.awsdns-63.com.]
+[caa-fingerprint] [dns] [info] worker-promise.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-replen.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-scff.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-replen.stg.aws.chewy.com [ns-605.awsdns-11.net.,ns-2043.awsdns-63.co.uk.,ns-52.awsdns-06.com.,ns-1431.awsdns-50.org.]
+[nameserver-fingerprint] [dns] [info] worker-sc-fp.dev.chewy.com [ns-64.awsdns-08.com.,ns-773.awsdns-32.net.,ns-1255.awsdns-28.org.,ns-1537.awsdns-00.co.uk.]
+[caa-fingerprint] [dns] [info] worker-sc-fp.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-concepts.stg.chewy.com [ns-1482.awsdns-57.org.,ns-943.awsdns-53.net.,ns-1657.awsdns-15.co.uk.,ns-295.awsdns-36.com.]
+[caa-fingerprint] [dns] [info] worker-sc-concepts.dev.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-replen.prd.aws.chewy.com [ns-1406.awsdns-47.org.,ns-796.awsdns-35.net.,ns-48.awsdns-06.com.,ns-1695.awsdns-19.co.uk.]
+[caa-fingerprint] [dns] [info] worker-pricing-analytics.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-concepts.dev.chewy.com [ns-1540.awsdns-00.co.uk.,ns-983.awsdns-58.net.,ns-1411.awsdns-48.org.,ns-209.awsdns-26.com.]
+[caa-fingerprint] [dns] [info] worker-pricing-analytics.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-sc-fp.prd.chewy.com
+[caa-fingerprint] [dns] [info] worker-sc-concepts.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-fp.prd.chewy.com [ns-1466.awsdns-55.org.,ns-1608.awsdns-09.co.uk.,ns-173.awsdns-21.com.,ns-524.awsdns-01.net.]
+[caa-fingerprint] [dns] [info] worker-sc-fp.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-concepts.prd.aws.chewy.com [ns-1273.awsdns-31.org.,ns-1745.awsdns-26.co.uk.,ns-401.awsdns-50.com.,ns-626.awsdns-14.net.]
+[caa-fingerprint] [dns] [info] worker-sc-research-plan.dev.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-fp.stg.chewy.com [ns-894.awsdns-47.net.,ns-332.awsdns-41.com.,ns-1508.awsdns-60.org.,ns-1671.awsdns-16.co.uk.]
+[nameserver-fingerprint] [dns] [info] worker-sc-research-plan.dev.aws.chewy.com [ns-1746.awsdns-26.co.uk.,ns-467.awsdns-58.com.,ns-931.awsdns-52.net.,ns-1411.awsdns-48.org.]
+[nameserver-fingerprint] [dns] [info] worker-segmentation-svc.dev.aws.chewy.com [ns-1859.awsdns-40.co.uk.,ns-1474.awsdns-56.org.,ns-605.awsdns-11.net.,ns-333.awsdns-41.com.]
+[nameserver-fingerprint] [dns] [info] worker-segmentation-svc.stg.aws.chewy.com [ns-1410.awsdns-48.org.,ns-1836.awsdns-37.co.uk.,ns-717.awsdns-25.net.,ns-262.awsdns-32.com.]
+[nameserver-fingerprint] [dns] [info] worker-snop.dev.aws.chewy.com [ns-1054.awsdns-03.org.,ns-1914.awsdns-47.co.uk.,ns-257.awsdns-32.com.,ns-648.awsdns-17.net.]
+[caa-fingerprint] [dns] [info] worker-segmentation-svc.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-promise.dev.aws.chewy.com [ns-41.awsdns-05.com.,ns-1883.awsdns-43.co.uk.,ns-1350.awsdns-40.org.,ns-537.awsdns-03.net.]
+[caa-fingerprint] [dns] [info] worker-sc-research-plan.stg.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-sc-research-plan.prd.aws.chewy.com [ns-1312.awsdns-36.org.,ns-1676.awsdns-17.co.uk.,ns-634.awsdns-15.net.,ns-285.awsdns-35.com.]
+[nameserver-fingerprint] [dns] [info] worker-snop.stg.aws.chewy.com [ns-1492.awsdns-58.org.,ns-1796.awsdns-32.co.uk.,ns-448.awsdns-56.com.,ns-917.awsdns-50.net.]
+[nameserver-fingerprint] [dns] [info] worker-sc-research-plan.stg.aws.chewy.com [ns-1574.awsdns-04.co.uk.,ns-1102.awsdns-09.org.,ns-728.awsdns-27.net.,ns-299.awsdns-37.com.]
+[caa-fingerprint] [dns] [info] worker-segmentation-svc.prd.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-snop.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-snop.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-sc-research-plan.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-snop.prd.aws.chewy.com [ns-793.awsdns-35.net.,ns-1263.awsdns-29.org.,ns-1555.awsdns-02.co.uk.,ns-54.awsdns-06.com.]
+[caa-fingerprint] [dns] [info] worker-snop.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-segmentation-svc.prd.aws.chewy.com [ns-1388.awsdns-45.org.,ns-1648.awsdns-14.co.uk.,ns-504.awsdns-63.com.,ns-819.awsdns-38.net.]
+[caa-fingerprint] [dns] [info] worker-segmentation-svc.dev.aws.chewy.com
+[servfail-refused-hosts] [dns] [info] www-prod.pro.chewy.com
+[servfail-refused-hosts] [dns] [info] worker-weaverbird.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-thephds-atworks.dev.chewy.com [ns-279.awsdns-34.com.,ns-1602.awsdns-08.co.uk.,ns-734.awsdns-27.net.,ns-1144.awsdns-15.org.]
+[nameserver-fingerprint] [dns] [info] worker-vopx-automation.stg.aws.chewy.com [ns-1133.awsdns-13.org.,ns-1727.awsdns-23.co.uk.,ns-779.awsdns-33.net.,ns-370.awsdns-46.com.]
+[dns-saas-service-detection:akamai-cdn] [dns] [info] www.chewy.com [www.chewy.com.ipv6.edgekey.net.]
+[caa-fingerprint] [dns] [info] worker-thephds-atworks.prd.chewy.com
+[caa-fingerprint] [dns] [info] worker-thephds-atworks.dev.chewy.com
+[caa-fingerprint] [dns] [info] worker-sc-concepts.prd.aws.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-vopx-automation.dev.aws.chewy.com [ns-1283.awsdns-32.org.,ns-1820.awsdns-35.co.uk.,ns-258.awsdns-32.com.,ns-832.awsdns-40.net.]
+[nameserver-fingerprint] [dns] [info] worker-thephds-atworks.prd.chewy.com [ns-789.awsdns-34.net.,ns-1190.awsdns-20.org.,ns-1764.awsdns-28.co.uk.,ns-340.awsdns-42.com.]
+[caa-fingerprint] [dns] [info] worker-vopx-automation.stg.aws.chewy.com
+[caa-fingerprint] [dns] [info] worker-thephds-atworks.stg.chewy.com
+[nameserver-fingerprint] [dns] [info] worker-thephds-atworks.stg.chewy.com [ns-1441.awsdns-52.org.,ns-1881.awsdns-43.co.uk.,ns-244.awsdns-30.com.,ns-749.awsdns-29.net.]
+[caa-fingerprint] [dns] [info] worker-vopx-automation.dev.aws.chewy.com
+[caa-fingerprint] [dns] [info] www.chewy.com
+[caa-fingerprint] [dns] [info] www.collab-edge.chewy.com
+[caa-fingerprint] [dns] [info] www.fll2txwc02.chewy.com
+[caa-fingerprint] [dns] [info] www.careers.chewy.com
+[caa-fingerprint] [dns] [info] www.findata.chewy.com
+[caa-fingerprint] [dns] [info] www.findata-test.chewy.com
+[caa-fingerprint] [dns] [info] www.demo.petscriptions.chewy.com
+[caa-fingerprint] [dns] [info] www.tracking.chewy.com
+[caa-fingerprint] [dns] [info] www.iad2txwc02.chewy.com
+[caa-fingerprint] [dns] [info] www.media.chewy.com
+[caa-fingerprint] [dns] [info] www.university.chewy.com
+[caa-fingerprint] [dns] [info] www.vpn3.chewy.com
+[caa-fingerprint] [dns] [info] www.fll2txwe02.chewy.com
+[caa-fingerprint] [dns] [info] www.internal-talent-hub.chewy.com
+[caa-fingerprint] [dns] [info] www.safety.chewy.com
+[caa-fingerprint] [dns] [info] www.iad2txwe02.chewy.com
+[caa-fingerprint] [dns] [info] www.vdslite.chewy.com
+[caa-fingerprint] [dns] [info] ypcmygsc.paws.chewy.com
+[caa-fingerprint] [dns] [info] z2vlq1mj.ca.chewy.com
+[caa-fingerprint] [dns] [info] zeus-pricing.prd.chewy.com
+[caa-fingerprint] [dns] [info] zfkula6v.paws.chewy.com
+[nameserver-fingerprint] [dns] [info] zeus-pricing.prd.chewy.com [ns-1029.awsdns-00.org.,ns-2008.awsdns-59.co.uk.,ns-497.awsdns-62.com.,ns-527.awsdns-01.net.]
+[caa-fingerprint] [dns] [info] www.wms-test.chewy.com
+[caa-fingerprint] [dns] [info] www.xpwycluster.chewy.com
+[caa-fingerprint] [dns] [info] www.wms.chewy.com
+[caa-fingerprint] [dns] [info] xpwycluster.chewy.com
